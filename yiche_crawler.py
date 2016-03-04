@@ -8,11 +8,16 @@ import json
 reload(sys)  
 sys.setdefaultencoding('utf8')   
 
-def crawl_comment(url_base):
+def crawl_comment(url_base, dir, spec_name):
 	
-	file_name = "yiche_comment_" + url_base.split("/")[-2] + ".txt"
-	print file_name
-	file = open(file_name, "w")
+	files = os.listdir(dir)
+	file_name = spec_name + ".txt"
+	for name in files:
+		if name.find(spec_name) != -1:
+			file_name = name
+			break
+	file = open(file_name, "a")
+	file.write("**comments from yiche\n\n\n")
 	flag = 1
 	url_comments = url_base
 	page_num = 1
@@ -28,21 +33,25 @@ def crawl_comment(url_base):
 			flag = 0
 			
 		for item in soup.body.find_all("div", id="topiclistshow")[0].find_all("dl"):
-			url_comment = item.find_all("ul", class_="cont_list")[0].li.a.get("href")
-			r = requests.get(url_comment)
-			soup = BeautifulSoup(r.text, "lxml")
-			# TODO: Some comments are not totally cleaned up. Other contents besides the real one are included.
-			print soup.find("div", id="content_bit").find_all("div", class_="article-contents")[0].text	
-			#file.write("%%" + item.select(".mouth-main .text-con div")[0].text + "\n##")
-			#file.write(item.select(".mouth-main .mouth-remak label.supportNumber")[0].text + "\n\n\n")
+			url_comment_list = item.find_all("ul", class_="cont_list")[0].find_all("li")
+			for url_comment in url_comment_list:
+				r = requests.get(url_comment.a.get("href"))
+				soup = BeautifulSoup(r.text, "lxml")
+				comment = soup.find("div", id="content_bit").find_all("div", class_="article-contents")[0]	
+				if comment.select("p.czjg_xq_cont") != []: # which means that comment is not valid.
+					continue
+				# print comment.text
+				file.write("%%" + comment.text.strip() + "\n")
 	file.close()
 	# print html
 
 def main():
-	series = "test"
-	if not os.path.exists("yiche_crawler/" + str(series)):
-		os.makedirs("yiche_crawler/" + str(series))
-	os.chdir("yiche_crawler/"+str(series))
+	# just a temperary name. Will change later.
+	series = 66
+	dir = os.getcwd() + "/data/" + str(series) + "/"
+	if not os.path.exists("data/" + str(series)):
+		os.makedirs("data/" + str(series))
+	os.chdir("data/"+str(series))
 	# a car series
 	url_series = "http://car.bitauto.com/baoma3xi/koubei/tags/%E7%BB%BC%E5%90%88/"
 	
@@ -59,6 +68,8 @@ def main():
 			continue
 		# find a certain spec
 		url_comment = item.find("a")["href"]
-		crawl_comment(url_comment)
+		spec_name = "".join(item.find("a").text.strip().split())
+		print "processing ..."
+		crawl_comment(url_comment, dir, spec_name)
 
 main()
