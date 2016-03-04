@@ -16,12 +16,14 @@ def get_car_id(url_series):
 	car_list = [int(s.strip()) for s in car_list_str[1:-1].split(",")]
 	return car_list
 
-def crawl_basic(url_basic, car_id):
+def crawl_basic(url_basic):
 	r = requests.get(url_basic)
 	
 	configList = r.text.split("config = ")[1].split(";")[0]
 	configList = json.loads(configList)
-	file_name = "autohome_basic_" + str(car_id) + ".txt"
+	car_name = configList["result"]["paramtypeitems"][0]["paramitems"][0]["valueitems"][0]["value"]
+	print type(car_name)
+	file_name = car_name.encode("utf8") + car_name.encode("gbk") + "_basic" + ".txt"
 	file = open(file_name, 'w')
 
 	# extract basic infomation.
@@ -34,8 +36,10 @@ def crawl_basic(url_basic, car_id):
 		file.write("%%" + item["name"] + ":" + basic_config[item["name"]] + "\n") 
 
 	file.close()
-def crawl_comment(url_base, car_id):
-	file_name = "autohome_comment_" + str(car_id) + ".txt"
+	return car_name
+
+def crawl_comment(url_base, car_name):
+	file_name = car_name.encode("utf8") + "_comment" + ".txt"
 	file = open(file_name, "w")
 	flag = 1
 	url_comment = url_base
@@ -60,9 +64,9 @@ def crawl_comment(url_base, car_id):
 def main():
 
 	series = 66
-	if not os.path.exists("autohome_crawler/" + str(series)):
-		os.makedirs("autohome_crawler/" + str(series))
-	os.chdir("autohome_crawler/"+str(series))
+	if not os.path.exists("data/" + str(series)):
+		os.makedirs("data/" + str(series))
+	os.chdir("data/"+str(series))
 	url_series = "http://car.autohome.com.cn/config/series/" + str(series) + ".html"
 	car_list = get_car_id(url_series)
 	
@@ -70,7 +74,8 @@ def main():
 		print "Processing", car_id, "..."
 		url_basic = "http://car.autohome.com.cn/config/spec/" + str(car_id) + ".html"
 		url_comment = "http://k.autohome.com.cn/spec/" + str(car_id)
-		crawl_basic(url_basic, car_id)
-		crawl_comment(url_comment, car_id)
+		car_name = crawl_basic(url_basic)
+		crawl_comment(url_comment, car_name)
 
 main()
+
