@@ -1,95 +1,141 @@
- 	<!DOCTYPE html>
-	<html>
-	<head>
-	<meta charset="utf-8">
-	<title>画一个力学图(Force)</title>
-	<script type="text/javascript" src="js/d3.js"></script>
-	</head>
-	<style type="text/css">
-	.node {
-	stroke: #fff;
-	stroke-width: 1.5px;
-	cursor:pointer;
-	}
-	
-	.nodetext {
-	fill: #000;
-	font-size:12px;
-	cursor:pointer;
-	pointer-events:none;
-	}
-	</style>
-	<body>
-	<script type="text/javascript">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>画一个力学图(Force)</title>
+    <script type="text/javascript" src="js/d3.js"></script>
+</head>
+<style type="text/css">
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+  cursor:pointer;
+}
+
+.nodetext {
+  fill: #000;
+  font-size:12px;
+  cursor:pointer;
+  pointer-events:none;
+ }
+</style>
+<body>
+<script type="text/javascript">	
 	var width = 960;
-	var height = 600;
+    var height = 600;
 	
-	//取得20个颜色的序列
-	var color = d3.scale.category20();
+	// red for good, blue for bad.
+	var color = ["#09F","red","blue","gray"];
 	
 	//定义画布
 	var svg = d3.select("body").append("svg")
-	.attr("width", width)
-	.attr("height", height);
+		.attr("width", width)
+		.attr("height", height);
 	
 	//定义力学结构
 	var force = d3.layout.force()
-	.charge(-150)
-	.linkDistance(100)
-	.size([width, height]);
+		.linkDistance(190)
+		.size([width, height]);	
 	
 	//读取数据
 	d3.json("force.php", function(error, graph) {
-	force
-	.nodes(graph.nodes)
-	.links(graph.links)
-	.start();
+		var nodes = [], links = [];
+		// int i = 0;
+		var series = graph.series;
+		series["fixed"] = true;
+		series["x"] = width/2;
+		series["y"] = height/2;
+		nodes.push(graph.series);
+		for (var i = 0; i < graph.nodes.length; ++i) {
+			// alert(i);
+			nodes.push(graph.nodes[i]);
+			// var link = {"source":}
+			links.push({"source":i+1,"target":0});
+		}
+
+		force.nodes(nodes)
+			.links(links)
+			.start()
+			.gravity(0)
+			// .charge(0);
+			.charge( function(d) { 
+				if (d.group == 0) {return 0;} else {return 200;} 
+			;});
+	  
+		//定义连线
+		var link = svg.selectAll(".link")
+		  .data(links)
+		  .enter()
+		  .append("line")
+		  .attr("class", "link")
+		  .attr("stroke",function(d) {return color[d.source.group]})
+		  .attr("stroke-opacity","0.4")
+		  .style("stroke-width",1);
+		  
+		//定义节点标记
+		var node = svg.selectAll(".node")
+		  .data(nodes)
+		  .enter()
+		  .append("g")
+		  .call(force.drag);
+		
+		//节点圆形标记
+		node.append("circle")
+		  .attr("class", "node")
+		  .attr("r",function(d){ if(d.group == 0) {return 100;} else {return Math.random() * 25 + 10;} })
+		  .style("fill", function(d) { return color[d.group]; })
+		  .on("mouseover", function(d){
+		  	// console.log(this.r.value);
+		  	if (d.group == 0)
+		  		return;
+		  	d3.select(this)
+		  		.transition()
+		  		.duration(200)
+		  		.attr("r", 1.2*this.r.baseVal.value);
+		  })
+		  .on("mouseout", function(d) {
+		  	if (d.group == 0)
+		  		return;
+		  	d3.select(this)
+		  		.attr("r", this.r.baseVal.value/1.2);
+		  })
+		  .on("click", function(d) {
+		  	console.log(d3.select(this));
+		  	this.append("p").text("err");
+		  });
+
+		
+		//标记鼠标悬停的标签
+		node.append("title")
+		  .text(function(d) { console.log(d.name); return d.name; });
+		
+		//节点上显示的姓名
+		node.append("text")
+		  .attr("dy", ".3em")
+		  .attr("class","nodetext")
+		  .style("text-anchor", "middle")
+		  .text(function(d) { return d.name; });
 	
-	//定义连线
-	var link = svg.selectAll(".link")
-	.data(graph.links)
-	.enter()
-	.append("line")
-	.attr("class", "link")
-	.attr("stroke","#09F")
-	.attr("stroke-opacity","0.4")
-	.style("stroke-width",1);
-	
-	//定义节点标记
-	var node = svg.selectAll(".node")
-	.data(graph.nodes)
-	.enter()
-	.append("g")
-	.call(force.drag);
-	
-	//节点圆形标记
-	node.append("circle")
-	.attr("class", "node")
-	.attr("r",function(d){return 10+d.group;})
-	.style("fill", function(d) { return color(d.group); });
-	
-	//标记鼠标悬停的标签
-	node.append("title")
-	.text(function(d) { return d.name; });
-	
-	//节点上显示的姓名
-	node.append("text")
-	.attr("dy", ".3em")
-	.attr("class","nodetext")
-	.style("text-anchor", "middle")
-	.text(function(d) { return d.name; });
-	
-	//开始力学动作
-	force.on("tick", function() {
-	link.attr("x1", function(d) { return d.source.x; })
-	.attr("y1", function(d) { return d.source.y; })
-	.attr("x2", function(d) { return d.target.x; })
-	.attr("y2", function(d) { return d.target.y; });
-	
-	node.attr("transform", function(d){ return "translate("+d.x+"," + d.y + ")";});
+		//开始力学动作
+		force.on("tick", function() {
+			// node.forEach(function(d, i) {
+
+			// });
+			node.attr("transform", function(d){ 
+				d.x = d.x < d.r/2 ? d.r/2 : d.x;  
+				d.x = d.x + d.r/2 > width ? width - d.r/2 : d.x; 
+				d.y = d.y < d.r/2 ? d.r/2 : d.y;  
+				d.y = d.y + d.r/2 > height ? height - d.r/2 : d.y;
+				return "translate("+d.x+"," + d.y + ")";
+			});
+			link.attr("x1", function(d) { return d.source.x; })
+				.attr("y1", function(d) { return d.source.y; })
+				.attr("x2", function(d) { return d.target.x; })
+				.attr("y2", function(d) { return d.target.y; });
+			// force.tick();
+		});
 	});
-	});
-	
-	</script>
-	</body>
-	</html>
+			
+</script>
+</body>
+</html>
