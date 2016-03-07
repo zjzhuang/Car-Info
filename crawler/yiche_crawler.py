@@ -16,10 +16,16 @@ def crawl_comment(url_base, dir, spec_name):
 	# get the file name.
 	files = os.listdir(dir)
 	file_name = spec_name + ".txt"
+
+	has_file = 0
 	for name in files:
-		if name.find(spec_name) != -1 and name.find("basic"):
+		if name.find(spec_name) != -1 and name.find("basic") == -1:
 			file_name = name
+			has_file = 1
 			break
+	if has_file == 0:
+		print "No data matched."
+		return 
 	file = open(file_name, "a")
 	file.write("**comments from yiche\n\n\n")
 	flag = 1
@@ -62,11 +68,21 @@ def crawl_comment(url_base, dir, spec_name):
 							continue
 						tag.string = "[" + tag.string.strip() + "]"
 						# print tag.text
+					for p in comment.find_all("p"):
+						if not p.string:
+							continue
+						p.string = p.string.strip()
+					if comment.h4:
+						comment.h4.extract()
+					if comment.pre:
+						comment.pre.extract()
+					if comment.find("div.con_nav2"):
+						comment.find("duv.con_nav2").extract()
 					file.write("%%" + comment.text.strip() + "\n")
 				except Exception as e:
 					print url_comment.a.get("href")
                                         print e
-                                        log.write("Error when crawling page: " + url_comment + "\n Error msg: " + str(e.value) + "\n\n")
+                                        log.write("Error when crawling page: " + url_comment.a.get("href") + "\n\n")
 
 	file.close()
 	log.close()

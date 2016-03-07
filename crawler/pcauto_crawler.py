@@ -14,13 +14,15 @@ def crawl_comment(url_base, dir, spec_name):
 	
 	files = os.listdir(dir)
 	file_name = spec_name + ".txt"
+
+	has_file = 0
 	for name in files:
 		if name.find(spec_name) != -1 and name.find("basic") == -1:
 			file_name = name
+			has_file = 1
 			break
-		if spec_name.find(name) != -1:
-			os.rename(dir + name, dir + file_name)
-			break
+	if not has_file:
+		return
 	file = open(file_name, "a")
 	file.write("**comments from pcauto\n\n\n")
 	flag = 1
@@ -50,7 +52,7 @@ def crawl_comment(url_base, dir, spec_name):
 				file.write("\n\n\n")
 			except Exception as e:
                                 print e
-                                log.write("Error when crawling page: " + url_comments + "\n Error msg: " + str(e.value) + "\n\n")
+                                log.write("Error when crawling page: " + url_comments + "\n\n")
 
 	file.close()
  	log.close()
@@ -76,16 +78,5 @@ def main():
 		url_comment = item.find("a").get("href")
 		spec_name = "".join(item.find("a").text.strip().split())
 		crawl_comment(url_comment, dir, spec_name)
-
-	# crawl those unavaliable specs.
-	r = requests.get(url_series + "/sale/")
-	soup = BeautifulSoup(r.text, "lxml")
-        for item in soup.select("#cxList div.tr"):               
-                # find a certain spec
-		print "processing ..."
-                url_comment = item.find("a")["href"]
-                spec_name = "".join(item.find("a").text.strip().split())
-                crawl_comment(url_comment, dir, spec_name)
-
 
 main()
