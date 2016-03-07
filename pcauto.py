@@ -13,7 +13,7 @@ def crawl_comment(url_base, dir, spec_name):
 	files = os.listdir(dir)
 	file_name = spec_name + ".txt"
 	for name in files:
-		if name.find(spec_name) != -1:
+		if name.find(spec_name) != -1 and name.find("basic") == -1:
 			file_name = name
 			break
 		if spec_name.find(name) != -1:

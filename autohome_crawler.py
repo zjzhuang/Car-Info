@@ -29,6 +29,7 @@ def crawl_basic(url_basic):
 	basic_config = {}
 
 	for item in configList["result"]["paramtypeitems"][0]["paramitems"]:
+		
 		basic_config[item["name"]] = item["valueitems"][0]["value"]
 		# print item["name"], basic_config[item["name"]]
 		# should encode it using the charset. Ref: http://www.tuicool.com/articles/rUNZ7b
@@ -37,10 +38,13 @@ def crawl_basic(url_basic):
 	file.close()
 	return car_name
 
-def crawl_comment(url_base, car_name):
+def crawl_comment(url_base, car_name, car_id):
 	file_name = car_name.encode("utf8") + ".txt"
 	file = open(file_name, "a")
-	file.write("**comments from auto_home")
+	file.write("**comments from auto_home\n\n\n")
+	file.write("car_id:")
+	file.write(car_id)
+	file.write("\n")
 	flag = 1
 	url_comment = url_base
 	page_num = 1
@@ -89,7 +93,7 @@ def main():
 		url_basic = "http://car.autohome.com.cn/config/spec/" + str(car_id) + ".html"
 		url_comment = "http://k.autohome.com.cn/spec/" + str(car_id)
 		car_name = crawl_basic(url_basic)
-		crawl_comment(url_comment, car_name)
+		crawl_comment(url_comment, car_name, car_id)
 
 main()
 
