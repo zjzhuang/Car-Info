@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>画一个力学图(Force)</title>
+    <script type="text/javascript" src="js/d3.js"></script>
+</head>
+<style type="text/css">
+
+body {
+	color: gray;
+}
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+  cursor:pointer;
+}
+
+.nodetext {
+  fill: #000;
+  font-size:12px;
+  cursor:pointer;
+  position: relative;
+  pointer-events:none;
+ }
+
+g title {
+	position: absolute;
+
+}
+
+div.tag_detail {
+	position: absolute;
+	top: 0;
+	width: 250px;
+	background: rgba(245,245,226,0.5);
+	padding: 30px;
+	max-height: 400px;
+	display: none;
+}
+
+.tag_detail h4 {
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+.cancel_button {
+	float: right;
+
+}
+
+div.comment_item {
+	padding-right: 3px;
+	/*margin-bottom: 15px;*/
+}
+
+div.comment_detail {
+	max-height: 300px;
+	overflow-y: scroll;
+
+}
+
+</style>
+<body>
+
+
+<!-- <div class="tag_detail">
+	<div></div>
+</div> -->
+
+<script type="text/javascript">	
+	var width = 960;
+    var height = 600;
+	
+	// red for good, blue for bad.
+	var color = ["#bedaf4","red","#54a4ee","gray"];
+	
+	//定义画布
+	var svg = d3.select("body").append("svg")
+		.attr("width", width)
+		.attr("height", height);
+	
+	//定义力学结构
+	var force = d3.layout.force()
+		.linkDistance(190)
+		.size([width, height]);	
+	
+	//读取数据
+	d3.json("force.php", function(error, graph) {
+		var nodes = [], links = [];
+		// int i = 0;
+		var series = graph.series;
+		series["fixed"] = true;
+		series["x"] = width/2;
+		series["y"] = height/2;
+		nodes.push(graph.series);
+
+		for (var i = 0; i < graph.nodes.length; ++i) {
+			// alert(i);
+			nodes.push(graph.nodes[i]);
+			// var link = {"source":}
+			links.push({"source":i+1,"target":0});
+		}
+
+		force.nodes(nodes)
+			.links(links)
+			.start()
+			.gravity(0)
+			// .charge(0);
+			.charge( function(d) { 
+				if (d.group == 0) {return 0;} else {return 200;} 
+			;});
+	  
+		
+		var link = svg.selectAll(".link")
+		  .data(links)
+		  .enter()
+		  .append("line")
+		  .attr("class", "link")
+		  .attr("stroke",function(d) {return color[d.source.group]})
+		  .attr("stroke-opacity","0.8")
+		  .style("stroke-width",2);
+		  
+		//定义节点标记
+		var node = svg.selectAll(".node")
+		  .data(nodes)
+		  .enter()
+		  .append("g");
+
+
+		//节点圆形标记
+		node.append("circle")
+		  .attr("class", "node")
+		  .attr("r",function(d){ if(d.group == 0) {return 100;} else {return Math.sqrt(d.weight*100) + Math.random()*5 + 5;} })
+		  .style("fill", function(d) { return color[d.group]; })
+		  .on("mouseenter", function(d){
+		  	// console.log(this.r.value);
+		  	if (d.group == 0)
+		  		return;
+		  	d3.select(this)
+		  		.transition()
+		  		.duration(200)
+		  		.attr("r", 1.2*this.r.baseVal.value);
+		  })
+		  .on("mouseout", function(d) {
+		  	if (d.group == 0)
+		  		return;
+		  	d3.select(this)
+		  		.attr("r", this.r.baseVal.value/1.2);
+		  })
+		  .on("click", function(d) {
+		  	if (d.group == 0) {
+		  		return;
+		  	} else {
+		  	}
+		  });
+
+		
+		node.append("title")
+		  .text(function(d) {return d.name; });
+		
+		//节点上显示的姓名
+		var node_text = node.append("text")
+		  .attr("class","nodetext")
+		  // .attr("dy", function(d) )
+		  .style("text-anchor", "middle")
+		  .text(function(d) { return d.name; });
+	
+		var center_node = node[0][0];
+		console.log(center_node);
+
+		// node.each(function(d) {
+		// 	if(d.group == 0)
+		//   		return;
+		//   	else {
+		//   		d3.select(this).call(force.drag);
+		//   	}
+		// });
+		// console.log(node_text);
+
+		//开始力学动作
+		force.on("tick", function() {
+			node.attr("transform", function(d){ 
+				d.x = d.x < d.r/2 ? d.r/2 : d.x;  
+				d.x = d.x + d.r/2 > width ? width - d.r/2 : d.x; 
+				d.y = d.y < d.r/2 ? d.r/2 : d.y;  
+				d.y = d.y + d.r/2 > height ? height - d.r/2 : d.y;
+				return "translate("+d.x+"," + d.y + ")";
+			});
+			// console.log(node.attr("x"))
+			node_text.attr("top", function(d){
+				// console.log(this);
+				var dx = d.x - center_node.__data__.x;
+				var dy = d.y - center_node.__data__.y;
+				// console.log(dx);
+				d3.select(this).attr("dx", dx*0.2)
+				d3.select(this).attr("dy", dy*0.2)
+				 // = dx + center_node.__data__.x;
+
+			});
+			link.attr("x1", function(d) { return d.source.x; })
+				.attr("y1", function(d) { return d.source.y; })
+				.attr("x2", function(d) { return d.target.x; })
+				.attr("y2", function(d) { return d.target.y; });
+			force.tick();
+		});
+
+		node.on("click", function(d) {
+			if (d.group != 0) {
+				console.log(d.id);
+				var comment_list = graph.comments[d.id-1].comments;
+				var tag_detail = document.getElementsByClassName("tag_detail")[0];
+				var comment_item = tag_detail.getElementsByClassName("comment_item")[0];
+				var comment_tmp = comment_item;
+				tag_detail.style.display = "block";
+				tag_detail.getElementsByTagName("h4")[0].innerHTML = d.name;
+
+				document.getElementsByClassName("comment_detail")[0].childNodes = [];
+
+				for (var i = 0; i < comment_list.length; ++i) {
+					if (i == 0) {
+						comment_item.getElementsByTagName("span")[0].innerHTML = comment_list[i].from;
+						comment_item.getElementsByTagName("span")[1].innerHTML = comment_list[i].date;
+						comment_item.getElementsByTagName("p")[0].innerHTML = comment_list[i].content;
+					}
+					else {
+						comment_tmp = comment_item.cloneNode(true);
+						comment_tmp.getElementsByTagName("span")[0].innerHTML = comment_list[i].from;
+						comment_tmp.getElementsByTagName("span")[1].innerHTML = comment_list[i].date;
+						comment_tmp.getElementsByTagName("p")[0].innerHTML = comment_list[i].content;
+						comment_item.parentNode.appendChild(comment_tmp);
+					}
+				}
+			}
+		});
+
+		// for ()
+
+		// // create comment div
+		// var title;
+		// for (var i = 0; i < graph.comments.length; ++i) {
+		// 	var comments = graph.comments[i];
+			var comment_div = document.createElement("div");
+			comment_div.className = "tag_detail";
+		// 	var current_node = node[0][comments["id"]];
+		// 	title = current_node.__data__.name;
+		// 	console.log(current_node);
+			var content = ' \
+				<h4></h4> \
+				<span class="cancel_button">x</span> \
+				<div class="comment_detail"></div> \
+			';
+			comment_div.innerHTML =  content;
+
+			var comment_detail = comment_div.getElementsByClassName("comment_detail")[0];
+		// 	// console.log(comment_detail);
+		// 	for (var j = 0; j < comments.comments.length; ++j) {
+		// 		var item = comments.comments[j];
+			var comment = '\
+				<div class="comment_item"> \
+				<span style="position:relative; left:0; margin-top:10px"></span> \
+				<span style="float: right; margin-right: 3px;"></span> \
+				<p></p> \
+				<hr style="margin-bottom: 0px;"> </div> \
+			';
+		// 		// var from = document.createElement("");
+			comment_detail.innerHTML = comment_detail.innerHTML + comment; 
+		// 	}
+		// 	// comment_div.
+		// 	var actual_left = current_node.__data__.x;
+		// 	var current = current_node.parent;
+
+		// 	comment_div.style.top = actual_left;
+			document.body.appendChild(comment_div);
+		// 	// current_node.onclick = function() {
+		// 	// 	comment_div.style.display = "block";
+		// 	// };
+		// }
+
+
+	});
+			
+</script>
+
+
+
+</body>
+</html>
