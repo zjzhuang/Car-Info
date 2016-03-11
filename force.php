@@ -1,5 +1,6 @@
 {
   "series":{
+    "id":0,
     "name":"宝马3系 要不要再长一点？",
     "hot":54,
     "good":82,
@@ -8,21 +9,56 @@
     "group":0
   },
   "nodes":[
-    {"name":"性价比高","group":1,"weight":5},
-    {"name":"空间大","group":1,"weight":4},
-    {"name":"有噪音","group":2,"weight":15},
-    {"name":"有气味","group":2,"weight":85},
-    {"name":"加速快","group":1,"weight":25},
-    {"name":"很长很长的评论哈哈哈","group":3,"weight":5},
-    {"name":"Test","group":3,"weight":2}
+    {"id":1,"name":"性价比高","group":1,"weight":5},
+    {"id":2,"name":"空间大","group":1,"weight":4},
+    {"id":3,"name":"有噪音","group":2,"weight":15},
+    {"id":4,"name":"有气味","group":2,"weight":85},
+    {"id":5,"name":"加速快","group":1,"weight":25},
+    {"id":6,"name":"很长很长的评论哈哈哈","group":3,"weight":5},
+    {"id":7,"name":"Test","group":3,"weight":2}
   ],
-  "links":[
-    {"source":1,"target":0},
-    {"source":2,"target":0,"value":8},
-    {"source":3,"target":0,"value":10},
-    {"source":4,"target":0,"value":1},
-    {"source":5,"target":0,"value":1},
-    {"source":6,"target":0,"value":1},
-    {"source":7,"target":0,"value":1}
+  "comments":[
+    {"id":1,"comments":[
+        {"date":"2015-4-5","content":"Just a test","from":"test"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"}
+    ]},
+    {"id":2,"comments":[
+        {"date":"2015-4-6","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"}
+    ]},
+    {"id":3,"comments":[
+        {"date":"2015-4-7","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"}
+    ]},    
+    {"id":4,"comments":[
+        {"date":"2015-4-8","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"}
+    ]},    
+    {"id":5,"comments":[
+        {"date":"2015-4-9","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"}
+    ]},    
+    {"id":6,"comments":[
+        {"date":"2015-4-10","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"}
+    ]},
+    {"id":7,"comments":[
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"},
+        {"date":"2015-4-4","content":"Just a test","from":"pcauto"}
+    ]}
   ]
 }
