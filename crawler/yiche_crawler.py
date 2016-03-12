@@ -91,10 +91,10 @@ def crawl_comment(url_base, dir, spec_name):
 def main():
 	# just a temperary name. Will change later.
 	series = 66
-	dir = os.getcwd() + "/data/" + str(series) + "/"
-	if not os.path.exists("data/" + str(series)):
-		os.makedirs("data/" + str(series))
-	os.chdir("data/"+str(series))
+	dir = os.getcwd() + "/data/"
+	if not os.path.exists("data/"):
+		os.makedirs("data/")
+	os.chdir("data/")
 	# a car series
 	url_series = "http://car.bitauto.com/baoma3xi/koubei/tags/%E7%BB%BC%E5%90%88/"
 	
