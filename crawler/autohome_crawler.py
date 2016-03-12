@@ -1,9 +1,21 @@
+#-*- coding: UTF-8 -*-
 
 import urllib,urllib2,cookielib
 import requests
 from bs4 import BeautifulSoup
 import sys, os
 import json
+import copy, collections, datetime, MySQLdb
+
+
+conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
+cur=conn.cursor()
+
+comment_field = ["brand", "series", "spec", "date", "web", "good", "bad", "space", "power", "operate", "oil", "comfort", "appearance", "decoration", "worth", "bugs", "sustain", "other", "upvote", "downvote", "respond"]
+
+comment_dict = collections.OrderedDict()	
+for field in comment_field:
+	comment_dict[field] = ""
 
 
 reload(sys)  
@@ -31,18 +43,18 @@ def crawl_basic(url_basic):
 	file.close()
 	return car_name
 
-def crawl_comment(url_base, car_name, car_id):
+def crawl_comment(web_name, series, url_base, spec_name, car_id):
+
+	split_tag = ["【最满意的一点】", "【最不满意的一点】", "【空间】"]
 
 
 	log = open("crawler_log.txt", "a")
 
-	file_name = car_name.encode("utf8") + ".txt"
+	file_name = str(series) + ".txt"
 	file = open(file_name, "a")
-	file.write("**comments from auto_home\n\n\n")
-	file.write("car_id:" + str(car_id) + "\n")
+	# file.write("**comments from auto_home\n\n\n")
+	# file.write("car_id:" + str(car_id) + "\n")
 	flag = 1
-
-
 
 	url_comment = url_base
 	page_num = 1
@@ -59,6 +71,13 @@ def crawl_comment(url_base, car_name, car_id):
 			flag = 0
 			
 		for item in soup.body.find_all("div", class_="mouthcon"):
+
+			comment = copy.copy(comment_dict)
+			comment["brand"] = "baoma"
+			comment["series"] = "66"
+			comment["spec"] = spec_name
+			comment["web"] = web_name
+
 			# get the specific comment page.
 			try:
 				r = requests.get(item.select(".mouth-main .mouth-item .cont-title .title-name a")[0]["href"])
@@ -68,19 +87,18 @@ def crawl_comment(url_base, car_name, car_id):
 
 			soup = BeautifulSoup(r.text, "lxml")
 			# all comments including add-ons.
+			
 			comments = soup.select(".mouth-main .mouth-item .text-con")
-			# test = comments[-1]
-			# print test.find("\u3010")
-			unicode(comments[-1].text).replace("\u3010", "[")
-			comments[-1].text.replace("\u3011", "]")
-			# print comments[-1].text
+			# write real comment		
 			file.write("%%" + comments[-1].text.strip() + "\n")
-			for comment in comments[0:-1]:
+			for comment_add_on in comments[0:-1]:
 				# can further get data on comment_time, average_oil_per_mile etc.
-				if comment.select("dd.add-dl-text") == []:
+				if comment_add_on.select("dd.add-dl-text") == []:
 					continue
-				file.write("@@" + comment.select("dd.add-dl-text")[0].text.strip() + "\n")
+				# write add-ons
+				file.write("@@" + comment_add_on.select("dd.add-dl-text")[0].text.strip() + "\n")
 				# print "add_ons:", comment.select("dd.add-dl-text")[0].text
+			# write additional info
 			file.write("$$" + item.select(".mouth-main .mouth-remak label.supportNumber")[0].text + "\n\n\n")
 	file.close()
 	log.close()
@@ -101,7 +119,7 @@ def main():
 		url_basic = "http://car.autohome.com.cn/config/spec/" + str(car_id) + ".html"
 		url_comment = "http://k.autohome.com.cn/spec/" + str(car_id)
 		car_name = crawl_basic(url_basic)
-		crawl_comment(url_comment, car_name, car_id)
+		crawl_comment("autohome", series, url_comment, car_name, car_id)
 
 main()
 

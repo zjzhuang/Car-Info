@@ -1,9 +1,21 @@
+#-*- coding: UTF-8 -*-
+
 import urllib,urllib2,cookielib
 import requests
 from bs4 import BeautifulSoup
 import sys, os
 import json
+import copy, collections, datetime, MySQLdb
 
+
+conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
+cur=conn.cursor()
+
+comment_field = ["brand", "series", "spec", "date", "web", "good", "bad", "space", "power", "operate", "oil", "comfort", "appearance", "decoration", "worth", "bugs", "sustain", "other", "upvote", "downvote", "respond"]
+
+comment_dict = collections.OrderedDict()	
+for field in comment_field:
+	comment_dict[field] = ""
 
 reload(sys)  
 sys.setdefaultencoding('utf8')   
@@ -91,10 +103,10 @@ def crawl_comment(url_base, dir, spec_name):
 def main():
 	# just a temperary name. Will change later.
 	series = 66
-	dir = os.getcwd() + "/data/" + str(series) + "/"
-	if not os.path.exists("data/" + str(series)):
-		os.makedirs("data/" + str(series))
-	os.chdir("data/"+str(series))
+	dir = os.getcwd() + "/data/"
+	if not os.path.exists("data/"):
+		os.makedirs("data/")
+	os.chdir("data/")
 	# a car series
 	url_series = "http://car.bitauto.com/baoma3xi/koubei/tags/%E7%BB%BC%E5%90%88/"
 	
