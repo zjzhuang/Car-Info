@@ -1,19 +1,30 @@
+#-*- coding: UTF-8 -*-
+
 import urllib,urllib2,cookielib
 import requests
 from bs4 import BeautifulSoup
 import sys, os
 import json
-
+import copy, collections, datetime, MySQLdb
 
 reload(sys)  
 sys.setdefaultencoding('utf8')   
 
-def crawl_comment(url_base, dir, spec_name):
+conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
+cur=conn.cursor()
+
+comment_field = ["brand", "series", "spec", "date", "web", "good", "bad", "space", "power", "operate", "oil", "comfort", "appearance", "decoration", "worth", "bugs", "sustain", "other", "upvote", "downvote", "respond"]
+
+comment_dict = collections.OrderedDict()	
+for field in comment_field:
+	comment_dict[field] = ""
+
+def crawl_comment(web_name, brand, series, spec_name, url_base):
 
 	log = open("crawler_log.txt", "a")
 	
 	files = os.listdir(dir)
-	file_name = spec_name + ".txt"
+	file_name = series + ".txt"
 
 	has_file = 0
 	for name in files:
@@ -42,13 +53,30 @@ def crawl_comment(url_base, dir, spec_name):
 		for item in soup.select("div.main_table"):
 			try:
 				comment = item.select("div.table_text")[0]
+				date = item.select("div.info p a")[0].text[:-2]
+				print "date is: %s" % date
+				upvote = item.select("a.good em")[0].text[1:-1]
+				print "upvote is: %s" % upvote
+				respond_script = item.select("a.answer")[0].next_sibling.text
+				respond_url_pre = respond_script.split(",")[0][12:-2] 
+				respond_url_next = respond_script.split(",")[1][1:-1]
+				respond = json.dumps(requests.get(respond_url_pre + "&" + respond_url_next)).total
+				print "respond is: %s" % respond
+
 				# print "text:", comment.text.strip()
 				for tag in comment.find_all("strong"):
 					tag.string = "[" + tag.string[0:-1] + "]"
 					# print tag.text.encode("utf-8")	
-				file.write("%%" + comment.text + "\n")
+				file.write("from: %s\nbrand: %s\nseries: %s\nspec: %s\ndate: %s\ncontent: " % (web_name, brand, series, spec_name, date))
+
+				file.write("comment: " + comment.text.strip() + "\n")
 				for add_on in item.select("div.zjdp"):
-					file.write("@@" + add_on.select("div.zjdp_text").text  + "\n")
+					# note that this date is additional on original one!! e.g.: 2014-10-23 + 56 = 2014-11-23 + 26 (day!)
+					add_date = item.select("div.sp2")[0].text[6:-3]
+					print "additional_date: %s" % add_date
+					file.write("add-on: " + add_on.select("div.zjdp_text").text  + "\n")
+				file.write("upvote: " + upvote + "\n")
+				file.write("respond: " + respond + "\n")
 				file.write("\n\n\n")
 			except Exception as e:
                                 print e
@@ -59,11 +87,11 @@ def crawl_comment(url_base, dir, spec_name):
 
 def main():
 	# just a temperary name. Will change later.
-	series = 66
-	dir = os.getcwd() + "/data/" + str(series) + "/"
-	if not os.path.exists("data/" + str(series)):
-		os.makedirs("data/" + str(series))
-	os.chdir("data/" + str(series))
+	series = "66"
+	dir = os.getcwd() + "/data/"
+	if not os.path.exists("data/"):
+		os.makedirs("data/")
+	os.chdir("data/")
 	# to crawl a car series.
 	url_series = "http://price.pcauto.com.cn/comment/sg424/"
 	
@@ -77,6 +105,9 @@ def main():
 		print "processing ..."
 		url_comment = item.find("a").get("href")
 		spec_name = "".join(item.find("a").text.strip().split())
-		crawl_comment(url_comment, dir, spec_name)
+		crawl_comment("pcauto", "baoma", series, spec_name, url_comment)
+
+	cur.close()
+	conn.close()
 
 main()
