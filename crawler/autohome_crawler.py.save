@@ -41,17 +41,20 @@ def crawl_basic(url_basic, car_id):
 	file.close()
 	return car_name
 
-def crawl_comment(web_name, series, brand, url_base, spec_name, car_id):
+def crawl_comment(web_name, series, url_base, spec_name, car_id):
 
 	split_tag = ["【最满意的一点】", "【最不满意的一点】", "【空间】"]
 
+
 	log = open("crawler_log.txt", "a")
 
-	file_name = series + ".txt"
+	file_name = str(series) + ".txt"
 	file = open(file_name, "a")
-
+=======
+	file = open(file_name, "a")
 	# file.write("**comments from auto_home\n\n\n")
 	# file.write("car_id:" + str(car_id) + "\n")
+>>>>>>> b294cc160d2d00229209bce7ced203dc9c09ec7a
 	flag = 1
 
 	url_comment = url_base
@@ -70,53 +73,52 @@ def crawl_comment(web_name, series, brand, url_base, spec_name, car_id):
 			
 		for item in soup.body.find_all("div", class_="mouthcon"):
 
-			record = copy.copy(comment_dict)
-			record["brand"] = brand
-			record["series"] = "66"
-			record["spec"] = spec_name
-			record["web"] = web_name
+			comment = copy.copy(comment_dict)
+			comment["brand"] = "baoma"
+			comment["series"] = "66"
+			comment["spec"] = spec_name
+			comment["web"] = web_name
 
 			# get the specific comment page.
 			try:
 				r = requests.get(item.select(".mouth-main .mouth-item .cont-title .title-name a")[0]["href"])
 			except e:
 				print e
-                                log.write("Error when crawling page: " + url_comment + "\ 	n Error msg: " + e + "\n\n")
+                                log.write("Error when crawling page: " + url_comment + "\n Error msg: " + e + "\n\n")
 
 			soup = BeautifulSoup(r.text, "lxml")
 			# all comments including add-ons.
 			
 			comments = soup.select(".mouth-main .mouth-item .text-con")
+<<<<<<< HEAD
+			unicode(comments[-1].text).replace(u"\u3010", "[")
+			comments[-1].text.replace(u"\u3011", "]")
 
-			# list of date (including real comment, add-ons.)
-			date = soup.select(".mouth-main .mouth-item .title-name b")
-			file.write("from: %s\nbrand: %s\nseries: %s\nspec: %s\ndate: %s\ncontent: " % (web_name, brand, series, spec_name, date[-1]))
+			# TODO: need to split them into fields.
 
+=======
 			# write real comment		
-			file.write("comment: " + comments[-1].text.strip() + "\n")
-
-			for i in range(len(comments[0:-1])-1):
-				add_on = comments[i]
+>>>>>>> b294cc160d2d00229209bce7ced203dc9c09ec7a
+			file.write("%%" + comments[-1].text.strip() + "\n")
+			for comment_add_on in comments[0:-1]:
 				# can further get data on comment_time, average_oil_per_mile etc.
-				if add_on.select("dd.add-dl-text") == []:
+				if comment_add_on.select("dd.add-dl-text") == []:
 					continue
-				add_on_date = date[i]
+<<<<<<< HEAD
+				file.write("@@" + comment.select("dd.add-dl-text")[0].text.strip() + "\n")
+=======
 				# write add-ons
-				file.write("add-on: " + add_on.select("dd.add-dl-text")[0].text.strip() + "\n")
+				file.write("@@" + comment_add_on.select("dd.add-dl-text")[0].text.strip() + "\n")
 				# print "add_ons:", comment.select("dd.add-dl-text")[0].text
 			# write additional info
-			upvote = item.select(".mouth-main .mouth-remak label.supportNumber")[0].text
-			respond = item.select(".mouth-main .mouth-remak span.CommentNumber")[0].text
-			print "upvote is " + upvote
-			print "respond is " + respond
-			file.write("upvote: " + upvote + "\n")
-			file.write("respond: " + respond + "\n")
+>>>>>>> b294cc160d2d00229209bce7ced203dc9c09ec7a
+			file.write("$$" + item.select(".mouth-main .mouth-remak label.supportNumber")[0].text + "\n\n\n")
 	file.close()
 	log.close()
 
 def main():
 
-	series = "66"
+	series = 66
 	if not os.path.exists("data/"):
 		os.makedirs("data/")
 	os.chdir("data/")
@@ -132,12 +134,13 @@ def main():
 		print "Processing", car_id, "..."
 		url_basic = "http://car.autohome.com.cn/config/spec/" + str(car_id) + ".html"
 		url_comment = "http://k.autohome.com.cn/spec/" + str(car_id)
-
+<<<<<<< HEAD
+		car_name = crawl_basic(url_basic, car_id)
+		crawl_comment(url_comment, car_name, car_id, series)
+=======
 		car_name = crawl_basic(url_basic)
-		crawl_comment("autohome", "baoma", series, url_comment, car_name, car_id)
-
-	cur.close()
-	conn.close()
+		crawl_comment("autohome", series, url_comment, car_name, car_id)
+>>>>>>> b294cc160d2d00229209bce7ced203dc9c09ec7a
 
 main()
 

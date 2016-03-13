@@ -1,21 +1,32 @@
+#-*- coding: UTF-8 -*-
+
 import urllib,urllib2,cookielib
 import requests
 from bs4 import BeautifulSoup
 import sys, os
 import json
-
+import copy, collections, datetime, MySQLdb
 
 reload(sys)  
 sys.setdefaultencoding('utf8')   
 
-def crawl_comment(url_base, dir, spec_name):
+conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
+cur=conn.cursor()
+
+comment_field = ["brand", "series", "spec", "date", "web", "good", "bad", "space", "power", "operate", "oil", "comfort", "appearance", "decoration", "worth", "bugs", "sustain", "other", "upvote", "downvote", "respond"]
+
+comment_dict = collections.OrderedDict()	
+for field in comment_field:
+	comment_dict[field] = ""
+
+def crawl_comment(web_name, series, spec_name, url_base):
 
 	# open the log.
 	log = open("crawler_log.txt", "a")
 	
 	# get the file name.
 	files = os.listdir(dir)
-	file_name = spec_name + ".txt"
+	file_name = series + ".txt"
 
 	has_file = 0
 	for name in files:
@@ -27,12 +38,11 @@ def crawl_comment(url_base, dir, spec_name):
 		print "No data matched."
 		return 
 	file = open(file_name, "a")
-	file.write("**comments from yiche\n\n\n")
+
+
 	flag = 1
 	url_comments = url_base
 	page_num = 1
-
-
 
 	while(flag):
 		r = requests.get(url_comments)
@@ -55,11 +65,18 @@ def crawl_comment(url_base, dir, spec_name):
 
 			# One user may have several comments.
 			for url_comment in url_comment_list:
+				respond = url_comment.select("div.rbox")[0].a.span.text[3:-1]
+				print "respond is: %s" % respond
+				upvote = url_comment.select("div.rbox em")[-1].text[1:-1]
+				print "upvote is: %s" % upvote
+
 				r = requests.get(url_comment.a.get("href"))
 				soup = BeautifulSoup(r.text, "lxml")
 				try:
 					comment = soup.find("div", id="content_bit").find_all("div", class_="article-contents")[0]
-						
+					
+					date = soup.find("span", id_="time").text
+					print "date is: %s" % date 
 					if comment.select("p.czjg_xq_cont") != []: # which means that comment is not valid.
 						continue
 					# pre-process the text for convenience.
@@ -72,13 +89,21 @@ def crawl_comment(url_base, dir, spec_name):
 						if not p.string:
 							continue
 						p.string = p.string.strip()
+					# Here we clean some data.
 					if comment.h4:
 						comment.h4.extract()
 					if comment.pre:
 						comment.pre.extract()
 					if comment.find("div.con_nav2"):
 						comment.find("duv.con_nav2").extract()
-					file.write("%%" + comment.text.strip() + "\n")
+
+					file.write("from: %s\nbrand: %s\nseries: %s\nspec: %s\ndate: %s\ncontent: " % (web_name, brand, series, spec_name, date))
+
+					file.write("comment: " + comment.text.strip() + "\n")
+					file.write("upvote: " + upvote + "\n")
+					file.write("respond: " + respond + "\n")
+
+					file.write()
 				except Exception as e:
 					print url_comment.a.get("href")
                                         print e
@@ -90,7 +115,7 @@ def crawl_comment(url_base, dir, spec_name):
 
 def main():
 	# just a temperary name. Will change later.
-	series = 66
+	series = "66"
 	dir = os.getcwd() + "/data/"
 	if not os.path.exists("data/"):
 		os.makedirs("data/")
@@ -113,6 +138,9 @@ def main():
 		url_comment = item.find("a")["href"]
 		spec_name = "".join(item.find("a").text.strip().split())
 		print "processing ..."
-		crawl_comment(url_comment, dir, spec_name)
+		crawl_comment("yiche", series, spec_name, url_comment)
+
+	cur.close()
+	conn.close()
 
 main()
