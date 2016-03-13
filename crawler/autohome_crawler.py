@@ -71,9 +71,9 @@ def crawl_comment(url_base, car_name, car_id):
 			comments = soup.select(".mouth-main .mouth-item .text-con")
 			# test = comments[-1]
 			# print test.find("\u3010")
-			unicode(comments[-1].text).replace("\u3010", "[")
-			comments[-1].text.replace("\u3011", "]")
-			# print comments[-1].text
+			unicode(comments[-1].text).replace(u"\u3010", "[")
+			comments[-1].text.replace(u"\u3011", "]")
+			print comments[-1].text
 			file.write("%%" + comments[-1].text.strip() + "\n")
 			for comment in comments[0:-1]:
 				# can further get data on comment_time, average_oil_per_mile etc.
