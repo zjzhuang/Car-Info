@@ -2,44 +2,46 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>画一个力学图(Force)</title>
+    <title>汽车评论可视化</title>
     <script type="text/javascript" src="js/d3.js"></script>
 </head>
 <style type="text/css">
-
 body {
 	color: gray;
 }
-
+svg {
+	position: absolute;
+	top: calc(50% - 300px);
+	left: calc(50% - 500px);	
+}
 .node {
   stroke: #fff;
   stroke-width: 1.5px;
   cursor:pointer;
 }
-
-.nodetext {
+.center_text {
   fill: #000;
-  font-size:12px;
-  cursor:pointer;
+  font-size: 12px;
+  cursor: pointer;
   position: relative;
-  pointer-events:none;
+  pointer-events: none;
+  
  }
-
 g title {
 	position: absolute;
-
 }
-
+.color_tag > div {
+	display: inline-block;
+}
 div.tag_detail {
 	position: absolute;
 	top: 0;
 	width: 250px;
-	background: rgba(245,245,226,0.5);
+	background: rgba(237,237,237,0.9);
 	padding: 30px;
 	max-height: 400px;
 	display: none;
 }
-
 .tag_detail h4 {
 	position: relative;
 	display: inline-block;
@@ -47,38 +49,51 @@ div.tag_detail {
 	padding: 0;
 	padding-bottom: 10px;
 }
-
 .cancel_button {
 	float: right;
-
 }
-
 div.comment_item {
 	padding-right: 3px;
 	/*margin-bottom: 15px;*/
 }
-
 div.comment_detail {
 	max-height: 300px;
-	overflow-y: scroll;
-
+	overflow-y: auto;
 }
-
 </style>
 <body>
-
-
-<!-- <div class="tag_detail">
-	<div></div>
-</div> -->
 
 <script type="text/javascript">	
 	var width = 960;
     var height = 600;
 	
-	// red for good, blue for bad.
+	// 0 for center, 1 for good, 2 for bad, 3 for neutral;
 	var color = ["#bedaf4","red","#54a4ee","gray"];
 	
+	var color_tag = d3.select("body").append("div")
+		.attr("class","color_tag")
+		.selectAll("div")
+		.data(color.slice(1, color.length))
+		.enter()
+		.append("div")
+		.append("span")
+		.attr("class","color")
+		.style({"display": "inline-block", "background": function(d) {return d;}, "width": "20px", "height": "20px", "border-radius": "20px", "vertical-align": "middle", "border": "2px black solid"})
+		.each(function(d, i) {
+			var text = document.createElement("span");
+			var name = function(i) {
+				if (i == 0)
+					return "正面评价";
+				if (i == 1)
+					return "负面评价";
+				else
+					return "中性评价";
+			};
+			text.innerHTML = name(i);
+			text.style.marginRight = "5px";
+			text.style.marginLeft = "3px";
+			this.parentNode.appendChild(text);
+		});
 	//定义画布
 	var svg = d3.select("body").append("svg")
 		.attr("width", width)
@@ -98,14 +113,25 @@ div.comment_detail {
 		series["x"] = width/2;
 		series["y"] = height/2;
 		nodes.push(graph.series);
-
+		// create links;
 		for (var i = 0; i < graph.nodes.length; ++i) {
-			// alert(i);
 			nodes.push(graph.nodes[i]);
-			// var link = {"source":}
 			links.push({"source":i+1,"target":0});
 		}
-
+		d3.select("body").append("div")
+			.attr("class","hot")
+			.append("span")
+			.text("热度:")
+			.style({"margin-right":"3px"})
+			.each(function() {
+				var hot_num = graph.series.hot;
+				var hot = document.createElement("span");
+				hot.innerHTML = hot_num;
+				this.parentNode.appendChild(hot);
+				hot.style.color = "red";
+			});
+		// var stack = d3.layout.stack()
+		// 	.
 		force.nodes(nodes)
 			.links(links)
 			.start()
@@ -125,25 +151,26 @@ div.comment_detail {
 		  .attr("stroke-opacity","0.8")
 		  .style("stroke-width",2);
 		  
-		//定义节点标记
 		var node = svg.selectAll(".node")
 		  .data(nodes)
 		  .enter()
 		  .append("g");
-
-
-		//节点圆形标记
-		node.append("circle")
+		var circle = node.append("circle")
 		  .attr("class", "node")
-		  .attr("r",function(d){ if(d.group == 0) {return 100;} else {return Math.sqrt(d.weight*100) + Math.random()*5 + 5;} })
+		  .attr("r",function(d){ 
+		  	if(d.group == 0) {
+		  		return 100;
+		  	} else {
+		  		return Math.sqrt(d.weight*300) + Math.random()*5 + 5;
+		  	} 
+		  })
 		  .style("fill", function(d) { return color[d.group]; })
 		  .on("mouseenter", function(d){
-		  	// console.log(this.r.value);
 		  	if (d.group == 0)
 		  		return;
 		  	d3.select(this)
-		  		.transition()
-		  		.duration(200)
+		  		// .transition()
+		  		// .duration(100)
 		  		.attr("r", 1.2*this.r.baseVal.value);
 		  })
 		  .on("mouseout", function(d) {
@@ -158,12 +185,7 @@ div.comment_detail {
 		  	} else {
 		  	}
 		  });
-
 		
-		node.append("title")
-		  .text(function(d) {return d.name; });
-		
-		//节点上显示的姓名
 		var node_text = node.append("text")
 		  .attr("class","nodetext")
 		  // .attr("dy", function(d) )
@@ -171,18 +193,6 @@ div.comment_detail {
 		  .text(function(d) { return d.name; });
 	
 		var center_node = node[0][0];
-		console.log(center_node);
-
-		// node.each(function(d) {
-		// 	if(d.group == 0)
-		//   		return;
-		//   	else {
-		//   		d3.select(this).call(force.drag);
-		//   	}
-		// });
-		// console.log(node_text);
-
-		//开始力学动作
 		force.on("tick", function() {
 			node.attr("transform", function(d){ 
 				d.x = d.x < d.r/2 ? d.r/2 : d.x;  
@@ -193,14 +203,14 @@ div.comment_detail {
 			});
 			// console.log(node.attr("x"))
 			node_text.attr("top", function(d){
-				// console.log(this);
-				var dx = d.x - center_node.__data__.x;
-				var dy = d.y - center_node.__data__.y;
-				// console.log(dx);
-				d3.select(this).attr("dx", dx*0.2)
-				d3.select(this).attr("dy", dy*0.2)
+				if (d.id == 0)
+					return;
+				var dx = d.x - center_node.__data__.x > 0 ? 1 : -1;
+				var dy = d.y - center_node.__data__.y > 0 ? 1.4 : -1;
+				var r = circle[0][d.id].getAttribute("r");
+				d3.select(this).attr("dx", dx*r*1.2)
+				d3.select(this).attr("dy", dy*r*1.2)
 				 // = dx + center_node.__data__.x;
-
 			});
 			link.attr("x1", function(d) { return d.source.x; })
 				.attr("y1", function(d) { return d.source.y; })
@@ -208,21 +218,27 @@ div.comment_detail {
 				.attr("y2", function(d) { return d.target.y; });
 			force.tick();
 		});
-
+		// when click, dynamically create the detail div.
+		// note that the order of nodes and comments should be the same.
 		node.on("click", function(d) {
 			if (d.group != 0) {
-				console.log(d.id);
 				var comment_list = graph.comments[d.id-1].comments;
 				var tag_detail = document.getElementsByClassName("tag_detail")[0];
-				var comment_item = tag_detail.getElementsByClassName("comment_item")[0];
-				var comment_tmp = comment_item;
-				tag_detail.style.display = "block";
-				tag_detail.getElementsByTagName("h4")[0].innerHTML = d.name;
-
-				document.getElementsByClassName("comment_detail")[0].childNodes = [];
-
+				var comment_item, comment_tmp;
+				var comment_detail = document.getElementsByClassName("comment_detail")[0];
+				comment_detail.innerHTML = null;
 				for (var i = 0; i < comment_list.length; ++i) {
 					if (i == 0) {
+						var comment = '\
+							<div class="comment_item"> \
+							<span style="position:relative; left:0; margin-top:10px"></span> \
+							<span style="float: right; margin-right: 3px;"></span> \
+							<p></p> \
+							<hr style="margin-bottom: 0px;"> </div> \
+						';
+						comment_detail.innerHTML = comment;
+						comment_item = document.getElementsByClassName("comment_item")[0];
+						comment_tmp = comment_item;
 						comment_item.getElementsByTagName("span")[0].innerHTML = comment_list[i].from;
 						comment_item.getElementsByTagName("span")[1].innerHTML = comment_list[i].date;
 						comment_item.getElementsByTagName("p")[0].innerHTML = comment_list[i].content;
@@ -235,54 +251,50 @@ div.comment_detail {
 						comment_item.parentNode.appendChild(comment_tmp);
 					}
 				}
+				tag_detail.style.display = "block";
+				tag_detail.getElementsByTagName("h4")[0].innerHTML = d.name;
+				tag_detail.style.left = (d3.select(this)[0][0].__data__.x + 20) + "px";
+				tag_detail.style.top = (d3.select(this)[0][0].__data__.y - 20) + "px";
 			}
 		});
-
-		// for ()
-
-		// // create comment div
-		// var title;
-		// for (var i = 0; i < graph.comments.length; ++i) {
-		// 	var comments = graph.comments[i];
-			var comment_div = document.createElement("div");
-			comment_div.className = "tag_detail";
-		// 	var current_node = node[0][comments["id"]];
-		// 	title = current_node.__data__.name;
-		// 	console.log(current_node);
-			var content = ' \
-				<h4></h4> \
-				<span class="cancel_button">x</span> \
-				<div class="comment_detail"></div> \
-			';
-			comment_div.innerHTML =  content;
-
-			var comment_detail = comment_div.getElementsByClassName("comment_detail")[0];
-		// 	// console.log(comment_detail);
-		// 	for (var j = 0; j < comments.comments.length; ++j) {
-		// 		var item = comments.comments[j];
-			var comment = '\
-				<div class="comment_item"> \
-				<span style="position:relative; left:0; margin-top:10px"></span> \
-				<span style="float: right; margin-right: 3px;"></span> \
-				<p></p> \
-				<hr style="margin-bottom: 0px;"> </div> \
-			';
-		// 		// var from = document.createElement("");
-			comment_detail.innerHTML = comment_detail.innerHTML + comment; 
-		// 	}
-		// 	// comment_div.
-		// 	var actual_left = current_node.__data__.x;
-		// 	var current = current_node.parent;
-
-		// 	comment_div.style.top = actual_left;
-			document.body.appendChild(comment_div);
-		// 	// current_node.onclick = function() {
-		// 	// 	comment_div.style.display = "block";
-		// 	// };
-		// }
-
-
-	});
+		// var 
+		var comment_div = document.createElement("div");
+		comment_div.className = "tag_detail";
+		var content = ' \
+			<h4></h4> \
+			<span class="cancel_button" style="cursor:pointer;"><img src="image/tag-close.png" /></span> \
+			<div class="comment_detail"></div> \
+		';
+		comment_div.innerHTML =  content;
+		document.body.appendChild(comment_div);
+		var g = document.getElementsByTagName("g");
+		for (var i = 1; i < circle[0].length; ++i) {
+			g[i].onclick = function(e) {
+				var ev = e || window.event;
+		        if(ev.stopPropagation){
+		            ev.stopPropagation();
+		        }
+		        else if(window.event){
+		            window.event.cancelBubble = true;
+		        }
+			}
+		}
+		document.getElementsByClassName("cancel_button")[0].onclick = function(e) {
+			this.parentNode.style.display = "none";
+			var ev = e || window.event;
+	        if(ev.stopPropagation){
+	            ev.stopPropagation();
+	        }
+	        else if(window.event){
+	            window.event.cancelBubble = true;
+	        }
+		};
+		document.onclick = function() {
+			var tag_detail = document.getElementsByClassName("tag_detail")[0];
+			if (tag_detail.style.display == "block") 
+				tag_detail.style.display = "none";
+		};
+});
 			
 </script>
 
