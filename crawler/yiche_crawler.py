@@ -19,24 +19,22 @@ comment_dict = collections.OrderedDict()
 for field in comment_field:
 	comment_dict[field] = ""
 
-def crawl_comment(web_name, series, spec_name, url_base):
+def store_comment(record, raw_comment, file):
+	# split_tag = ["【最满意的一点】", "【最不满意的一点】", "【空间】"]
+	# processing raw_comment
+
+	for key, value in record:
+		file.write("%s: %s\n" % (key, value))
+
+	# store it in sql.
+	return
+
+def crawl_comment(web_name, brand, series, spec_name = "", url_base):
 
 	# open the log.
-	log = open("crawler_log.txt", "a")
-	
+	log = open("crawler_log.txt", "a")	
 	# get the file name.
-	files = os.listdir(dir)
 	file_name = series + ".txt"
-
-	has_file = 0
-	for name in files:
-		if name.find(spec_name) != -1 and name.find("basic") == -1:
-			file_name = name
-			has_file = 1
-			break
-	if has_file == 0:
-		print "No data matched."
-		return 
 	file = open(file_name, "a")
 
 
@@ -65,18 +63,25 @@ def crawl_comment(web_name, series, spec_name, url_base):
 
 			# One user may have several comments.
 			for url_comment in url_comment_list:
-				respond = url_comment.select("div.rbox")[0].a.span.text[3:-1]
-				print "respond is: %s" % respond
-				upvote = url_comment.select("div.rbox em")[-1].text[1:-1]
-				print "upvote is: %s" % upvote
+				
+				record = copy.copy(comment_dict)
+				record["brand"] = brand
+				record["series"] = series
+				record["spec"] = spec_name
+				record["web"] = web_name
 
 				r = requests.get(url_comment.a.get("href"))
 				soup = BeautifulSoup(r.text, "lxml")
 				try:
 					comment = soup.find("div", id="content_bit").find_all("div", class_="article-contents")[0]
 					
-					date = soup.find("span", id_="time").text
+					record["respond"] = respond = url_comment.select("div.rbox")[0].a.span.text[3:-1]
+					record["upvote"] = upvote = url_comment.select("div.rbox em")[-1].text[1:-1]
+					record["date"] = date = soup.find("span", id_="time").text
+					print "respond is: %s" % respond
+					print "upvote is: %s" % upvote
 					print "date is: %s" % date 
+
 					if comment.select("p.czjg_xq_cont") != []: # which means that comment is not valid.
 						continue
 					# pre-process the text for convenience.
@@ -97,13 +102,8 @@ def crawl_comment(web_name, series, spec_name, url_base):
 					if comment.find("div.con_nav2"):
 						comment.find("duv.con_nav2").extract()
 
-					file.write("from: %s\nbrand: %s\nseries: %s\nspec: %s\ndate: %s\ncontent: " % (web_name, brand, series, spec_name, date))
+					store_comment(record, comment.text.strip(), file)
 
-					file.write("comment: " + comment.text.strip() + "\n")
-					file.write("upvote: " + upvote + "\n")
-					file.write("respond: " + respond + "\n")
-
-					file.write()
 				except Exception as e:
 					print url_comment.a.get("href")
                                         print e
@@ -115,7 +115,8 @@ def crawl_comment(web_name, series, spec_name, url_base):
 
 def main():
 	# just a temperary name. Will change later.
-	series = "66"
+	series = u"宝马3系"
+	brand = u"宝马"
 	dir = os.getcwd() + "/data/"
 	if not os.path.exists("data/"):
 		os.makedirs("data/")
@@ -136,9 +137,9 @@ def main():
 			continue
 		# find a certain spec
 		url_comment = item.find("a")["href"]
-		spec_name = "".join(item.find("a").text.strip().split())
+		spec_name = u"宝马3系" + "".join(item.find("a").text.strip().split())
 		print "processing ..."
-		crawl_comment("yiche", series, spec_name, url_comment)
+		crawl_comment("yiche", brand, series, spec_name, url_comment)
 
 	cur.close()
 	conn.close()

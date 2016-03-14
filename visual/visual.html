@@ -253,8 +253,9 @@ div.comment_detail {
 				}
 				tag_detail.style.display = "block";
 				tag_detail.getElementsByTagName("h4")[0].innerHTML = d.name;
-				tag_detail.style.left = (d3.select(this)[0][0].__data__.x + 20) + "px";
-				tag_detail.style.top = (d3.select(this)[0][0].__data__.y - 20) + "px";
+				console.log(d3.select(this)[0][0].__data__)
+				tag_detail.style.left = (d3.select(this)[0][0].__data__.x) + "px";
+				tag_detail.style.top = (d3.select(this)[0][0].__data__.y) + "px";
 			}
 		});
 		// var 

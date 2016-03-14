@@ -19,23 +19,24 @@ comment_dict = collections.OrderedDict()
 for field in comment_field:
 	comment_dict[field] = ""
 
-def crawl_comment(web_name, brand, series, spec_name, url_base):
+
+def store_comment(record, raw_comment, file):
+	split_tag = ["【最满意的一点】", "【最不满意的一点】", "【空间】"]
+	# processing raw_comment
+
+	for key, value in record:
+		file.write("%s: %s\n" % (key, value))
+
+	# store it in sql.
+	return
+
+
+def crawl_comment(web_name, brand, series, spec_name = "", url_base):
 
 	log = open("crawler_log.txt", "a")
-	
-	files = os.listdir(dir)
 	file_name = series + ".txt"
-
-	has_file = 0
-	for name in files:
-		if name.find(spec_name) != -1 and name.find("basic") == -1:
-			file_name = name
-			has_file = 1
-			break
-	if not has_file:
-		return
 	file = open(file_name, "a")
-	file.write("**comments from pcauto\n\n\n")
+
 	flag = 1
 	url_comments = url_base
 	page_num = 1
@@ -52,32 +53,37 @@ def crawl_comment(web_name, brand, series, spec_name, url_base):
 			
 		for item in soup.select("div.main_table"):
 			try:
+				record = copy.copy(comment_dict)
+				record["brand"] = brand
+				record["series"] = series
+				record["spec"] = spec_name
+				record["web"] = web_name
+
 				comment = item.select("div.table_text")[0]
-				date = item.select("div.info p a")[0].text[:-2]
+				record["date"] = date = item.select("div.info p a")[0].text[:-2]
+				record["upvote"] = upvote = item.select("a.good em")[0].text[1:-1]
 				print "date is: %s" % date
-				upvote = item.select("a.good em")[0].text[1:-1]
 				print "upvote is: %s" % upvote
 				respond_script = item.select("a.answer")[0].next_sibling.text
 				respond_url_pre = respond_script.split(",")[0][12:-2] 
 				respond_url_next = respond_script.split(",")[1][1:-1]
-				respond = json.dumps(requests.get(respond_url_pre + "&" + respond_url_next)).total
+				record["respond"] = respond = json.dumps(requests.get(respond_url_pre + "&" + respond_url_next)).total
 				print "respond is: %s" % respond
 
 				# print "text:", comment.text.strip()
 				for tag in comment.find_all("strong"):
 					tag.string = "[" + tag.string[0:-1] + "]"
 					# print tag.text.encode("utf-8")	
-				file.write("from: %s\nbrand: %s\nseries: %s\nspec: %s\ndate: %s\ncontent: " % (web_name, brand, series, spec_name, date))
-
-				file.write("comment: " + comment.text.strip() + "\n")
+				store_comment(record, comment.text.strip(), file)
 				for add_on in item.select("div.zjdp"):
 					# note that this date is additional on original one!! e.g.: 2014-10-23 + 56 = 2014-11-23 + 26 (day!)
 					add_date = item.select("div.sp2")[0].text[6:-3]
+					# need to convert it!
+					# record["date"] = ...
 					print "additional_date: %s" % add_date
-					file.write("add-on: " + add_on.select("div.zjdp_text").text  + "\n")
-				file.write("upvote: " + upvote + "\n")
-				file.write("respond: " + respond + "\n")
-				file.write("\n\n\n")
+					store_comment(record, add_on.select("div.zjdp_text").text, file)
+					# file.write("add-on: " + add_on.select("div.zjdp_text").text  + "\n")
+
 			except Exception as e:
                                 print e
                                 log.write("Error when crawling page: " + url_comments + "\n\n")
@@ -87,7 +93,8 @@ def crawl_comment(web_name, brand, series, spec_name, url_base):
 
 def main():
 	# just a temperary name. Will change later.
-	series = "66"
+	series = u"宝马3系"
+	brand = u"宝马"
 	dir = os.getcwd() + "/data/"
 	if not os.path.exists("data/"):
 		os.makedirs("data/")
@@ -105,7 +112,7 @@ def main():
 		print "processing ..."
 		url_comment = item.find("a").get("href")
 		spec_name = "".join(item.find("a").text.strip().split())
-		crawl_comment("pcauto", "baoma", series, spec_name, url_comment)
+		crawl_comment("pcauto", brand, series, spec_name, url_comment)
 
 	cur.close()
 	conn.close()

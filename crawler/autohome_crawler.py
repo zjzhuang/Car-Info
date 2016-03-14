@@ -21,6 +21,17 @@ for field in comment_field:
 reload(sys)  
 sys.setdefaultencoding('utf8')   
 
+
+def store_comment(record, raw_comment, file):
+	split_tag = ["【最满意的一点】", "【最不满意的一点】", "【空间】"]
+	# processing raw_comment
+
+	for key, value in record:
+		file.write("%s: %s\n" % (key, value))
+
+	# store it in sql.
+	return
+
 def crawl_basic(url_basic, car_id):
 	r = requests.get(url_basic)
 	
@@ -41,17 +52,13 @@ def crawl_basic(url_basic, car_id):
 	file.close()
 	return car_name
 
-def crawl_comment(web_name, series, brand, url_base, spec_name, car_id):
+def crawl_comment(web_name, brand, series, spec_name, url_base):
 
-	split_tag = ["【最满意的一点】", "【最不满意的一点】", "【空间】"]
 
 	log = open("crawler_log.txt", "a")
-
 	file_name = series + ".txt"
 	file = open(file_name, "a")
 
-	# file.write("**comments from auto_home\n\n\n")
-	# file.write("car_id:" + str(car_id) + "\n")
 	flag = 1
 
 	url_comment = url_base
@@ -72,7 +79,7 @@ def crawl_comment(web_name, series, brand, url_base, spec_name, car_id):
 
 			record = copy.copy(comment_dict)
 			record["brand"] = brand
-			record["series"] = "66"
+			record["series"] = series
 			record["spec"] = spec_name
 			record["web"] = web_name
 
@@ -90,39 +97,37 @@ def crawl_comment(web_name, series, brand, url_base, spec_name, car_id):
 
 			# list of date (including real comment, add-ons.)
 			date = soup.select(".mouth-main .mouth-item .title-name b")
-			file.write("from: %s\nbrand: %s\nseries: %s\nspec: %s\ndate: %s\ncontent: " % (web_name, brand, series, spec_name, date[-1]))
+			record["date"] = date[-1]
 
-			# write real comment		
-			file.write("comment: " + comments[-1].text.strip() + "\n")
-
+			# write additional info
+			record["upvote"] = upvote = item.select(".mouth-main .mouth-remak label.supportNumber")[0].text
+			record["respond"] = respond = item.select(".mouth-main .mouth-remak span.CommentNumber")[0].text
+			print "upvote is " + upvote
+			print "respond is " + respond
+			store_comment(record, comments[-1].text.strip(), file)
+			
 			for i in range(len(comments[0:-1])-1):
 				add_on = comments[i]
 				# can further get data on comment_time, average_oil_per_mile etc.
 				if add_on.select("dd.add-dl-text") == []:
 					continue
-				add_on_date = date[i]
-				# write add-ons
-				file.write("add-on: " + add_on.select("dd.add-dl-text")[0].text.strip() + "\n")
-				# print "add_ons:", comment.select("dd.add-dl-text")[0].text
-			# write additional info
-			upvote = item.select(".mouth-main .mouth-remak label.supportNumber")[0].text
-			respond = item.select(".mouth-main .mouth-remak span.CommentNumber")[0].text
-			print "upvote is " + upvote
-			print "respond is " + respond
-			file.write("upvote: " + upvote + "\n")
-			file.write("respond: " + respond + "\n")
+				record["date"] = date[i] 
+				store_comment(record, add_on.select("dd.add-dl-text")[0].text.strip(), file)
+			
+
 	file.close()
 	log.close()
 
 def main():
 
-	series = "66"
+	series = u"宝马3系"
+	brand = u"宝马"
 	if not os.path.exists("data/"):
 		os.makedirs("data/")
 	os.chdir("data/")
 
 	# get all car lists.
-	url_series = "http://car.autohome.com.cn/config/series/" + str(series) + ".html"
+	url_series = "http://car.autohome.com.cn/config/series/66.html"
 	r = requests.get(url_series)
 	car_list_str = r.text.split("specIDs =")[1].split(";")[0]
 	car_list = [int(s.strip()) for s in car_list_str[1:-1].split(",")]
@@ -134,7 +139,7 @@ def main():
 		url_comment = "http://k.autohome.com.cn/spec/" + str(car_id)
 
 		car_name = crawl_basic(url_basic)
-		crawl_comment("autohome", "baoma", series, url_comment, car_name, car_id)
+		crawl_comment("autohome", brand, series, car_name, url_comment)
 
 	cur.close()
 	conn.close()
