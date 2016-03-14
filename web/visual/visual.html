@@ -94,18 +94,26 @@ div.comment_detail {
 			text.style.marginLeft = "3px";
 			this.parentNode.appendChild(text);
 		});
-	//定义画布
+
 	var svg = d3.select("body").append("svg")
 		.attr("width", width)
 		.attr("height", height);
 	
-	//定义力学结构
 	var force = d3.layout.force()
 		.linkDistance(190)
 		.size([width, height]);	
 	
-	//读取数据
-	d3.json("force.php", function(error, graph) {
+	j = {    
+    "name": "hello-world",    
+    "description": "hello world test app",    
+    "version": "0.0.1",    
+    "private": true,    
+    "dependencies": {    
+        "express": "3.3.8"    
+    }  }  
+
+    // graph = {{graph}};
+	// d3.json(j, function(error, graph) {
 		var nodes = [], links = [];
 		// int i = 0;
 		var series = graph.series;
@@ -295,7 +303,7 @@ div.comment_detail {
 			if (tag_detail.style.display == "block") 
 				tag_detail.style.display = "none";
 		};
-});
+// });
 			
 </script>
 
