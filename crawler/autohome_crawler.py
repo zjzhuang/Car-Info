@@ -26,6 +26,9 @@ def store_comment(record, raw_comment, file):
 	split_tag = ["【最满意的一点】", "【最不满意的一点】", "【空间】"]
 	# processing raw_comment
 
+	# just a temporary test!
+	record["other"] = raw_comment
+
 	for (key, value) in record.items():
 		file.write("%s: %s\n" % (key, value))
 
@@ -53,7 +56,6 @@ def crawl_basic(url_basic, car_id):
 	return car_name
 
 def crawl_comment(web_name, brand, series, spec_name, url_base):
-
 
 	log = open("crawler_log.txt", "a")
 	file_name = series + ".txt"
@@ -84,36 +86,34 @@ def crawl_comment(web_name, brand, series, spec_name, url_base):
 			record["web"] = web_name
 
 			# get the specific comment page.
-			try:
-				r = requests.get(item.select(".mouth-main .mouth-item .cont-title .title-name a")[0]["href"])
-			except e:
-				print e
-                                log.write("Error when crawling page: " + url_comment + "\ 	n Error msg: " + e + "\n\n")
-
-			soup = BeautifulSoup(r.text, "lxml")
-			# all comments including add-ons.
-			
-			comments = soup.select(".mouth-main .mouth-item .text-con")
+			# try:
+			main_comment = item.select(".mouth-main .mouth-item .text-con")[0].text.strip()
 
 			# list of date (including real comment, add-ons.)
-			date = soup.select(".mouth-main .mouth-item .title-name b")
-			record["date"] = date[-1]
-
+			date = item.select(".mouth-main .mouth-item .title-name b")
+			record["date"] = date[-1].text.strip()
+			print "date: ", date[-1].text
 			# write additional info
 			record["upvote"] = upvote = item.select(".mouth-main .mouth-remak label.supportNumber")[0].text
 			record["respond"] = respond = item.select(".mouth-main .mouth-remak span.CommentNumber")[0].text
 			print "upvote is " + upvote
 			print "respond is " + respond
-			store_comment(record, comments[-1].text.strip(), file)
+			store_comment(record, main_comment, file)
 			
-			for i in range(len(comments[0:-1])-1):
-				add_on = comments[i]
-				# can further get data on comment_time, average_oil_per_mile etc.
-				if add_on.select("dd.add-dl-text") == []:
-					continue
-				record["date"] = date[i] 
-				store_comment(record, add_on.select("dd.add-dl-text")[0].text.strip(), file)
-			
+			# if there are no add-ons, do not need to follow on.
+			if item.select("dl.add-dl") != []:
+				print "follow on add-on comment"
+				r = requests.get(item.select(".mouth-main .mouth-item .cont-title .title-name a")[0]["href"])
+				soup = BeautifulSoup(r.text, "lxml")
+				add_on_comments = item.select(".mouth-main .mouth-item")[:-1]
+
+				for item in add_on_comments:
+					add_on_comment = item.select("dd.add-dl-text")[0].text.strip()
+					record["date"] = item.select("div.title-name b").text.strip() 
+					store_comment(record, add_on_comment, file)
+			# except Exception as e:
+			# 	print e
+			# 	log.write("Error when crawling page: " + str(url_comment) + "\n")
 
 	file.close()
 	log.close()
@@ -136,7 +136,7 @@ def main():
 	for car_id in car_list:		
 		print "Processing", car_id, "..."
 		url_basic = "http://car.autohome.com.cn/config/spec/" + str(car_id) + ".html"
-		url_comment = "http://k.autohome.com.cn/spec/" + str(car_id)
+		url_comment = "http://k.autohome.com.cn/spec/" + str(car_id) + "/ge0/0-0-2/"
 
 		car_name = crawl_basic(url_basic, car_id)
 		crawl_comment("autohome", brand, series, car_name, url_comment)

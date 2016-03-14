@@ -24,6 +24,9 @@ def store_comment(record, raw_comment, file):
 	split_tag = ["【最满意的一点】", "【最不满意的一点】", "【空间】"]
 	# processing raw_comment
 
+	# just a temporary test!
+	record["other"] = raw_comment
+
 	for (key, value) in record.items():
 		file.write("%s: %s\n" % (key, value))
 
@@ -87,8 +90,8 @@ def crawl_comment(web_name, brand, series, spec_name, url_base):
 					# file.write("add-on: " + add_on.select("div.zjdp_text").text  + "\n")
 
 			except Exception as e:
-                                print e
-                                log.write("Error when crawling page: " + url_comments + "\n\n")
+				print e
+				log.write("Error when crawling page: " + url_comments + "\n\n")
 
 	file.close()
  	log.close()

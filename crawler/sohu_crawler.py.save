@@ -24,9 +24,6 @@ def store_comment(record, raw_comment, file):
 	# split_tag = ["【最满意的一点】", "【最不满意的一点】", "【空间】"]
 	# processing raw_comment
 
-	# just a temporary test!
-	record["other"] = raw_comment
-	
 	for (key, value) in record.items():
 		file.write("%s: %s\n" % (key, value))
 

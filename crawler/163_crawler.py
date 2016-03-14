@@ -7,8 +7,8 @@ import sys, os
 import json
 import copy, collections, datetime, MySQLdb
 
-conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
-cur=conn.cursor()
+#conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
+#cur=conn.cursor()
 
 comment_field = ["brand", "series", "spec", "date", "web", "good", "bad", "space", "power", "operate", "oil", "comfort", "appearance", "decoration", "worth", "bugs", "sustain", "other", "upvote", "downvote", "respond"]
 
@@ -24,13 +24,16 @@ def store_comment(record, raw_comment, file):
 	# split_tag = ["【最满意的一点】", "【最不满意的一点】", "【空间】"]
 	# processing raw_comment
 
-	for key, value in record:
+	# just a temporary test!
+	record["other"] = raw_comment
+
+	for (key, value) in record.items():
 		file.write("%s: %s\n" % (key, value))
 
 	# store it in sql.
 	return
 
-def crawl_comment(web_name, brand, series, spec_name = "", url_base):
+def crawl_comment(web_name, brand, series, spec_name, url_base):
 
 	# open the log.
 	log = open("crawler_log.txt", "a")
@@ -45,19 +48,19 @@ def crawl_comment(web_name, brand, series, spec_name = "", url_base):
 	while(flag):
 		r = requests.get(url_comments)
 		soup = BeautifulSoup(r.text, "lxml")
-		next_page = soup.body.select("div.commentList-main div.comment-pages .active")[0].next_sibling
-		print next_page["class"]
-		if next_page["class"] != "nolink":
+		print url_comments
+		next_page = soup.body.select("div.commentList-main div.comment-pages .active")[0].next_sibling.next_sibling
+		if next_page.get("class") == None:
 			page_num += 1
-			url_comments = url_base.split(str(page_num-1) + "_")[0] + str(page_num) + "_1.html"
+			url_comments = url_base.split("/1_")[0] + "/" + str(page_num) + "_1.html"
 			print "another_page, ", url_comments
 		else:
 			flag = 0
 		
 		# Find comments from a specific user.
-		for item in soup.body.select("div.commentList-main > div"):
-			try:
-
+		for item in soup.body.select("div.commentList-main > div.commentSingle"):
+			# try:
+				# print url_comments
 				date = item.select("span.postTime")[0].text[:-3]
 				print "date is: %s" % date
 				record = copy.copy(comment_dict)
@@ -75,19 +78,19 @@ def crawl_comment(web_name, brand, series, spec_name = "", url_base):
 	   				soup = BeautifulSoup(r.text, "lxml")
 	   				content = soup.select("div.d3").text
 
-	   			record["respond"] = respond = item.select("span.reply").text[3:-1]
-	   			record["upvote"] = upvote = item.select("span.useful").text[3:-1]
-	   			record["downvote"] = downvote = item.select("span.unuseful").text[3:-1]
+	   			record["respond"] = respond = item.select("li.reply")[0].text[3:-1]
+	   			record["upvote"] = upvote = item.select("li.useful")[0].text[3:-1]
+	   			record["downvote"] = downvote = item.select("li.unuseful")[0].text[3:-1]
 	   			print "respond is %s" % respond
 	   			print "upvote is %s" % upvote
 	   			print "downvote is %s" % downvote
 
 	   			store_comment(record, content.strip(), file)
 	   			
-			except Exception as e:
-				print url_comments
-                print e
-                log.write("Error when crawling page: " + url_comments + "\n\n")
+			# except Exception as e:
+			# 	print url_comments
+   #              print e
+   #              log.write("Error when crawling page: " + url_comments + "\n\n")
 
 	file.close()
 	log.close()
