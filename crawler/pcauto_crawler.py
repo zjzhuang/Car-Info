@@ -10,8 +10,8 @@ import copy, collections, datetime, MySQLdb
 reload(sys)  
 sys.setdefaultencoding('utf8')   
 
-conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
-cur=conn.cursor()
+#conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
+#cur=conn.cursor()
 
 comment_field = ["brand", "series", "spec", "date", "web", "good", "bad", "space", "power", "operate", "oil", "comfort", "appearance", "decoration", "worth", "bugs", "sustain", "other", "upvote", "downvote", "respond"]
 
@@ -24,14 +24,14 @@ def store_comment(record, raw_comment, file):
 	split_tag = ["【最满意的一点】", "【最不满意的一点】", "【空间】"]
 	# processing raw_comment
 
-	for key, value in record:
+	for (key, value) in record.items():
 		file.write("%s: %s\n" % (key, value))
 
 	# store it in sql.
 	return
 
 
-def crawl_comment(web_name, brand, series, spec_name = "", url_base):
+def crawl_comment(web_name, brand, series, spec_name, url_base):
 
 	log = open("crawler_log.txt", "a")
 	file_name = series + ".txt"
@@ -60,15 +60,17 @@ def crawl_comment(web_name, brand, series, spec_name = "", url_base):
 				record["web"] = web_name
 
 				comment = item.select("div.table_text")[0]
-				record["date"] = date = item.select("div.info p a")[0].text[:-2]
-				record["upvote"] = upvote = item.select("a.good em")[0].text[1:-1]
+				record["date"] = date = item.select("div.info p a")[0].text.strip()[:-2]
+				record["upvote"] = upvote = item.select("a.good em")[0].text.strip()[1:-1]
 				print "date is: %s" % date
 				print "upvote is: %s" % upvote
-				respond_script = item.select("a.answer")[0].next_sibling.text
-				respond_url_pre = respond_script.split(",")[0][12:-2] 
-				respond_url_next = respond_script.split(",")[1][1:-1]
-				record["respond"] = respond = json.dumps(requests.get(respond_url_pre + "&" + respond_url_next)).total
-				print "respond is: %s" % respond
+				respond_script = item.select("div.corners script")[-1].text.strip()
+				respond_url_pre = respond_script.split("(")[1].split(",")[0].strip()[1:-2] 
+				respond_url_next = respond_script.split(",")[1].strip()[1:-1]
+				#r = requests.get(respond_url_pre + "&" + respond_url_next)
+				#print respond_url_pre + "&" + respond_url_next
+				#record["respond"] = respond = json.dumps(requests.get(respond_url_pre + "&" + respond_url_next).text).total
+				#print "respond is: %s" % respond
 
 				# print "text:", comment.text.strip()
 				for tag in comment.find_all("strong"):
@@ -77,11 +79,11 @@ def crawl_comment(web_name, brand, series, spec_name = "", url_base):
 				store_comment(record, comment.text.strip(), file)
 				for add_on in item.select("div.zjdp"):
 					# note that this date is additional on original one!! e.g.: 2014-10-23 + 56 = 2014-11-23 + 26 (day!)
-					add_date = item.select("div.sp2")[0].text[6:-3]
+					add_date = item.select("div.sp2")[0].text.strip()[6:-3]
 					# need to convert it!
 					# record["date"] = ...
 					print "additional_date: %s" % add_date
-					store_comment(record, add_on.select("div.zjdp_text").text, file)
+					store_comment(record, add_on.select("div.zjdp_text").text.strip(), file)
 					# file.write("add-on: " + add_on.select("div.zjdp_text").text  + "\n")
 
 			except Exception as e:
@@ -114,7 +116,7 @@ def main():
 		spec_name = "".join(item.find("a").text.strip().split())
 		crawl_comment("pcauto", brand, series, spec_name, url_comment)
 
-	cur.close()
-	conn.close()
+	#cur.close()
+	#conn.close()
 
 main()

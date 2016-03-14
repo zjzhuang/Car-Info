@@ -10,8 +10,8 @@ reload(sys)
 sys.setdefaultencoding('utf8')   
 
 
-conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
-cur=conn.cursor()
+#conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
+#cur=conn.cursor()
 
 comment_field = ["brand", "series", "spec", "date", "web", "good", "bad", "space", "power", "operate", "oil", "comfort", "appearance", "decoration", "worth", "bugs", "sustain", "other", "upvote", "downvote", "respond"]
 
@@ -25,16 +25,16 @@ def store_comment(record, raw_comment, file):
 	record["other"] = raw_comment
 
 	# write in file.
-	for key, value in record:
+	for (key, value) in record.items():
 		file.write("%s: %s\n" % (key, value))
 
 	# store it in sql.
-	sql = "insert into comments values " + str(tuple(record.values())) + ";"
-	result = cur.execute(sql)
-	conn.commit()
+	#sql = "insert into comments values " + str(tuple(record.values())) + ";"
+	#result = cur.execute(sql)
+	#conn.commit()
 	return
 
-def crawl_comment(web_name, brand, series, spec_name = "", url_base):
+def crawl_comment(web_name, brand, series, spec_name, url_base):
 
 	# open the log.
 	log = open("crawler_log.txt", "a")
@@ -74,7 +74,7 @@ def crawl_comment(web_name, brand, series, spec_name = "", url_base):
 				content = ""
 	   			for comment_item in comment_div:
 					content += comment_item.text.strip()
-						
+				#print content						
 				
 				info_list = tuple(i.text.encode("utf-8") for i in item.select("div.apply span.redc00"))
 
@@ -108,7 +108,7 @@ def main():
 	
 	crawl_comment("xgo", brand, series, "", url_comment)
 
-	cur.close()
-	conn.close()
+	#cur.close()
+	#conn.close()
 
 main()

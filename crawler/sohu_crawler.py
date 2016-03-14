@@ -7,8 +7,8 @@ import sys, os
 import json
 import copy, collections, datetime, MySQLdb
 
-conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
-cur=conn.cursor()
+#conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
+#cur=conn.cursor()
 
 comment_field = ["brand", "series", "spec", "date", "web", "good", "bad", "space", "power", "operate", "oil", "comfort", "appearance", "decoration", "worth", "bugs", "sustain", "other", "upvote", "downvote", "respond"]
 
@@ -24,13 +24,13 @@ def store_comment(record, raw_comment, file):
 	# split_tag = ["【最满意的一点】", "【最不满意的一点】", "【空间】"]
 	# processing raw_comment
 
-	for key, value in record:
+	for (key, value) in record.items():
 		file.write("%s: %s\n" % (key, value))
 
 	# store it in sql.
 	return
 
-def crawl_comment(web_name, brand, series, spec_name = "", url_base):
+def crawl_comment(web_name, brand, series, spec_name, url_base):
 
 	# open the log.
 	log = open("crawler_log.txt", "a")
@@ -45,21 +45,21 @@ def crawl_comment(web_name, brand, series, spec_name = "", url_base):
 	while(flag):
 		r = requests.get(url_comments)
 		soup = BeautifulSoup(r.text, "lxml")
-		next_page = soup.body.select("div.pagelist_new li.bg_white")[0].previous_sibling
-		print next_page["class"]
-		if next_page["class"] != "unable":
+		next_page = soup.body.select("div.pagelist_new li.bg_white")[0].previous_sibling.previous_sibling
+		print next_page.attrs
+		if next_page.attrs == {}: # no class named "unable"
 			page_num += 1
 			url_comments = url_base.split("dianping")[0] + "dianping_2_" + str(page_num) + ".html"
 			print "another_page, ", url_comments
 		else:
-			flag = 0
-		
+			flag = 0	
 		# Find comments from a specific user.
-		for item in soup.body.select("ul.pllist li"):
+		for item in soup.body.select("ul.pllist > li"):
 			try:
-
-				spec_name = series + "".join(item.div.h3.a.text.split())
-				date = item.select("span.time a")[-1].next_sibling.text
+				#print item
+				spec_name = series + "".join(item.select("div.pltit")[0].h3.a.text.split())
+				#print item.select("span.time")[0].text
+				date = item.select("span.time")[0].text.split(u"发表于")[-1].strip()
 				print "date is: %s" % date
 				record = copy.copy(comment_dict)
 				record["brand"] = brand
@@ -71,15 +71,16 @@ def crawl_comment(web_name, brand, series, spec_name = "", url_base):
 				content = ""
 	   			comment_div = item.select("div.pltxt")[0]
 	   			for tag in comment_div.select("p"):
-	   				content += u"【" + tag.strong.text + u"】"
-	   				content += tag.strong.next_sibling.text + "\n"
-	   				print tag.strong.next_sibling
+					pair = tag.text.split()
+	   				content += u"【" + pair[0] + u"】"
+	   				content += pair[1] + "\n"
+				#print content
 	   			store_comment(record, content.strip(), file)
 	   			
 			except Exception as e:
+				print e
 				print url_comments
-                print e
-                log.write("Error when crawling page: " + url_comments + "\n\n")
+              			log.write("Error when crawling page: " + url_comments + "\n\n")
 
 	file.close()
 	log.close()

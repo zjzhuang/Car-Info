@@ -10,8 +10,8 @@ import copy, collections, datetime, MySQLdb
 reload(sys)  
 sys.setdefaultencoding('utf8')   
 
-conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
-cur=conn.cursor()
+#conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
+#cur=conn.cursor()
 
 comment_field = ["brand", "series", "spec", "date", "web", "good", "bad", "space", "power", "operate", "oil", "comfort", "appearance", "decoration", "worth", "bugs", "sustain", "other", "upvote", "downvote", "respond"]
 
@@ -23,13 +23,13 @@ def store_comment(record, raw_comment, file):
 	# split_tag = ["【最满意的一点】", "【最不满意的一点】", "【空间】"]
 	# processing raw_comment
 
-	for key, value in record:
+	for (key, value) in record.items():
 		file.write("%s: %s\n" % (key, value))
 
 	# store it in sql.
 	return
 
-def crawl_comment(web_name, brand, series, spec_name = "", url_base):
+def crawl_comment(web_name, brand, series, spec_name, url_base):
 
 	# open the log.
 	log = open("crawler_log.txt", "a")	
@@ -69,15 +69,15 @@ def crawl_comment(web_name, brand, series, spec_name = "", url_base):
 				record["series"] = series
 				record["spec"] = spec_name
 				record["web"] = web_name
-
+				
 				r = requests.get(url_comment.a.get("href"))
 				soup = BeautifulSoup(r.text, "lxml")
 				try:
 					comment = soup.find("div", id="content_bit").find_all("div", class_="article-contents")[0]
 					
-					record["respond"] = respond = url_comment.select("div.rbox")[0].a.span.text[3:-1]
-					record["upvote"] = upvote = url_comment.select("div.rbox em")[-1].text[1:-1]
-					record["date"] = date = soup.find("span", id_="time").text
+					record["respond"] = respond = url_comment.select("div.rbox")[0].a.span.text[3:-1].strip()
+					record["upvote"] = upvote = url_comment.select("div.rbox em")[-1].text[1:-1].strip()
+					record["date"] = date = soup.select("#time")[0].text.strip()
 					print "respond is: %s" % respond
 					print "upvote is: %s" % upvote
 					print "date is: %s" % date 
@@ -141,7 +141,7 @@ def main():
 		print "processing ..."
 		crawl_comment("yiche", brand, series, spec_name, url_comment)
 
-	cur.close()
-	conn.close()
+	#cur.close()
+	#conn.close()
 
 main()

@@ -1,0 +1,7974 @@
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2016款320Li时尚型
+date: 
+                        2016年1月28日
+web: yiche
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 2
+downvote: 
+respond: 3
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款316Li手动型
+date: 
+                        2015年7月9日
+web: yiche
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 49
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款316Li手动型
+date: 
+                        2015年6月30日
+web: yiche
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 30
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款316Li时尚型
+date: 
+                        2015年5月25日
+web: yiche
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 16
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款316Li时尚型
+date: 
+                        2015年5月23日
+web: yiche
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 40
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款316Li手动型
+date: 2015-7-24
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 3
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328Li豪华设计套装
+date: 2015-7-27
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款335Li风尚设计套装
+date: 2015-7-8
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328Li时尚型
+date: 2015-7-22
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款316i运动设计套装
+date: 2015-7-13
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 3
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328LixDrive时尚型
+date: 2015-7-24
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款320Li超悦版豪华设计套装
+date: 2015-8-2
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2016款316Li时尚型
+date: 2015-10-30
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 3
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328i运动设计套装
+date: 2015-6-1
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328i运动设计套装
+date: 2015-7-30
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328iM运动型
+date: 2015-8-2
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328iM运动型
+date: 2014-7-24
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 4
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款316i进取型
+date: 2015-7-15
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 2
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2016款320Li豪华设计套装
+date: 2015-10-28
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 5
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款320i超悦版时尚型
+date: 2015-7-12
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 1
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328LixDrive豪华设计套装
+date: 2015-7-17
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 1
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款320Li超悦版时尚型
+date: 2015-4-27
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 14
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款320Li超悦版时尚型
+date: 2015-7-4
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2016款328ixDriveM运动型
+date: 2015-11-30
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2016款328iM运动型
+date: 2015-12-5
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328Li40周年限量版
+date: 2015-9-26
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2016款328Li豪华设计套装
+date: 2015-11-1
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 1
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2016款320Li进取型
+date: 2016-1-24
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 2
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款316Li手动型
+date: 2015-7-24
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 3
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328Li豪华设计套装
+date: 2015-7-27
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款335Li风尚设计套装
+date: 2015-7-8
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328Li时尚型
+date: 2015-7-22
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款316i运动设计套装
+date: 2015-7-13
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 3
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328LixDrive时尚型
+date: 2015-7-24
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款320Li超悦版豪华设计套装
+date: 2015-8-2
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2016款316Li时尚型
+date: 2015-10-30
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 3
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328i运动设计套装
+date: 2015-6-1
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328i运动设计套装
+date: 2015-7-30
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328iM运动型
+date: 2015-8-2
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328iM运动型
+date: 2014-7-24
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 4
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款316Li手动型
+date: 2015-7-24
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 3
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328Li豪华设计套装
+date: 2015-7-27
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款335Li风尚设计套装
+date: 2015-7-8
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328Li时尚型
+date: 2015-7-22
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款316i运动设计套装
+date: 2015-7-13
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 3
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328LixDrive时尚型
+date: 2015-7-24
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款320Li超悦版豪华设计套装
+date: 2015-8-2
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2016款316Li时尚型
+date: 2015-10-30
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 3
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328i运动设计套装
+date: 2015-6-1
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328i运动设计套装
+date: 2015-7-30
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328iM运动型
+date: 2015-8-2
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328iM运动型
+date: 2014-7-24
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 4
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款316i进取型
+date: 2015-7-15
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 2
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2016款320Li豪华设计套装
+date: 2015-10-28
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 5
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款320i超悦版时尚型
+date: 2015-7-12
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 1
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328LixDrive豪华设计套装
+date: 2015-7-17
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 1
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款320Li超悦版时尚型
+date: 2015-4-27
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 14
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款320Li超悦版时尚型
+date: 2015-7-4
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2016款328ixDriveM运动型
+date: 2015-11-30
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2016款328iM运动型
+date: 2015-12-5
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2015款328Li40周年限量版
+date: 2015-9-26
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 0
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2016款328Li豪华设计套装
+date: 2015-11-1
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 1
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2016款320Li进取型
+date: 2016-1-24
+web: pcauto
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 2
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-26 15:29
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+前排和后排头部空间一般，但前后轴距空间以及舒适度比较满意综述：
+动力和操控都是实在没话说，太棒了。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-26 14:41
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+悬架调校偏向舒适，但是避震器还是能给人感觉有一定韧劲，过减速带的质感很好，没有多余弹跳综述：
+一键启动和自动启停，自动启停是个好东西，习惯了之后挺好用的，建议大家都开着，老郭家双十一买的行车记录仪，拍摄效果很渣，不知道是不是我没在手机弄好！但是隐藏式真的很好看
+upvote: 1
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-26 13:41
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+空间方面，前排很舒服，后排空间比较小，感觉和老款没有什么质的飞跃，不过也在意料之中，同时又到328Li的后排感受了下，明显大了很多综述：
+宝马3系的操控性能表现的尤为突出，操控感强，方向精准，底盘扎实，路感清晰，刹车灵敏，静音效果突出，说到底其实就是操控性能，这是宝马品牌最大的优点。
+upvote: 0
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-26 12:07
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+关于噪音：都说3系噪音比较大，于是我就对它的噪音控制抱的预期太低了，也许正是因为预期太低了的原因，我感觉还可以综述：
+太喜欢这个门把手灯了 感觉有档次，晚上车内的灯光还是可以的，中控全景 这个内饰真是太没档次了
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-26 12:05
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+满意。限速非常适用，使用后不仅油耗降低，还不用操心是否超速，省精力。综述：
+品牌价值高，美观大气，动力强劲，操控性好，油耗低。
+upvote: 1
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-26 10:12
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+非常的犀利，标准轴距的身段比例完美，天使眼，鲨鱼鳍，一切都是那么的宝马，没买加长的另一个重要原因就是C柱上经典的“霍氏拐角”到了中国以后加上了一个尾巴
+upvote: 1
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-26 08:14
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+举起拇指给个赞赏，高速过弯的时候支撑很到位，路感反馈也很强烈。底盘其实还不错，偏硬又不失舒适型,综述：
+宝马敏感快捷的操控反馈最让新喜欢了。335的动力很猛，推背感十足；方向盘手感很差；油耗确实很给力.
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-26 07:26
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+新3系的2.0T发动机相比其它品牌同排量的发动机，数据上毫无优势，但得益于ZF的8AT的先进性，发动机与变速箱完美匹配，驾驶起来游刃有余，动力充沛的同时还兼顾了省油和平顺性。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-26 07:01
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+豪华的内饰没说的，相比时尚和基本款要好的多，一等价钱一等货，包括车内灯光，还是豪华的好的多综述：
+整车干净利落，大气，优雅，开出去很是吸引眼球
+upvote: 3
+downvote: 5
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 23:15
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+空间也足够给了，我180左右的个子，坐在里面也不感觉拥挤。后排空间也相当不错，头部空间有较大的空闲区，腿部空间也有两拳多点，人坐在里面感觉也是非常舒服，一点也不觉得很拥挤的感觉
+upvote: 3
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 22:44
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+很多中级车该有的配置没有。不过后排和后窗的遮阳帘很实用；座椅和后视镜的记忆功能也是很赞的。前雷达也比较实用综述：
+外观漂亮，宝马相对其他品牌就不说了，纵向对比自身，大灯个人认为比57系好看，14款比老款也做了明显提升，包括档把等等。
+upvote: 1
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 21:11
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+很多都很满意，空间、动力、操控、外观。我是很容易被车灯吸引的外貌协会，天使眼很漂亮，但是其他方面也并不差。
+upvote: 0
+downvote: 2
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 20:52
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+部空间够用，后排空间超级大，有时候东西放后排，侧身回去拿手都不容易够到综述：
+空间超出想象，特别是后排，迄今看过和做过的人，没有一个对后排空间不赞叹的。
+upvote: 0
+downvote: 2
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 20:18
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+内饰精致，真皮覆盖面积很广，电子档杆，爱拽，彩色大屏这些配置方便提升豪华感。综述：
+加速有力，油耗不高，电子档杆，爱拽，彩色大屏这些配置方便好用，科技感强，开起来整体感特别强。
+upvote: 0
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 20:15
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+油耗和我想象的有点偏高。刚开始的时候是8点多，磨合期过后，现在是7点多了。综述：
+空间还行，一家四口的话可以很舒适，但是如果是四个大人的话，可能就会有点挤
+upvote: 0
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 20:06
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+方向感确实是我开过的50万车以内数一数二的了。但是加长后确实感觉没有原来标准轴距的那么灵巧，有利有弊吧。日常使用还是很不错的。综述：
+油耗确实是低啊，加400油大概可以跑700公里，这油耗快赶上我原来的1.5嘉年华了。。。也就是平时上下班开的路况，平均时速30多吧，很满意了
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 19:05
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+动力随叫随到，要多少有多少啊，一坐上驾驶座就有一种操作的冲动综述：
+车子还是搭载2.0T的发动机，并且还是绚丽的8速手自一体变速箱，要知道这样的变速箱还是非常的厉害
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 18:03
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+转向精准，刹车灵敏，宝马的刹车就是有信心。开着放心，坐着舒心。综述：
+外观非常出色，路面反馈特别好，空间没得说大，动力强劲，油耗适中
+upvote: 3
+downvote: 2
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 17:43
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+德国车做的内饰令人满意，用料体现了这个价位的应有水平，做工也精致，难得的好内饰，特别喜欢挡把的造型，动感十足，爱不惜手。综述：
+宝马新3系真心的不错，外观还是那么的宝马，天使眼大灯很有神，加长后的车身显得大气，没有老款那种畏畏缩缩的感觉。后门很长，后排空间可以跟5系相媲美了。动力没话说，接近250匹马力加上8AT的波箱，很有驾驶欲望。
+upvote: 3
+downvote: 4
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 17:01
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+车漆很硬，刮擦过几次，都是以对方惨败告终。还有就是车子的外形就是喜欢，而且来得就是白色的王子就是好看
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 16:37
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+宝马的品牌影响力非常的强，在路上得到的就是明显的回头率，车子的内饰非常的潮流，并且带有的就是非常的好的科技感
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 16:34
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+新3系造型非常时尚，开眼角大灯造型很有攻击性。底盘扎实，变速箱和发动机匹配很好，既平顺，又省油，而且加速很快。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 16:28
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+这个是我的最爱，我不懂车，但是懂欣赏，买宝马的最大原因就是因为外观。综述：
+后排空间非常宽敞，驾驶感受顺滑，后排豪华配置不少，电子档杆，显档次，车内静音很满意
+upvote: 4
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 16:23
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+操控没的说，地盘扎实，方向精准尤其是在过弯的时候综述：
+驾驶感觉很好，也就是大家说的操控很好，转向精准，后轮驱动过弯时更稳定
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-05-07 17:18
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+整车给人一种圆润饱满的感觉，车头上隆起的线条，赋予车身充沛的力量感，动力表现让人非常满意。配合八速手自一体变速箱，这个动力输出，非常快速直接。综述：
+相比同价位的其他品牌，我觉得这款车的性价比还是挺让我满意的，不管是外观、内饰，还是内部性能、配置，或者操控感受、乘坐体验，我觉得它都要好一些。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-05-07 17:18
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+内饰整体感觉很精致，做工非常好，每一个细节的装饰、各部分的材质用料都非常讲究。方向精准，回馈力度适中，动力强劲。刹车灵敏，油门响应快速。整机操控感感觉非常好。综述：
+这款车在内饰方面非常的豪华上档次。动力性能也非常不错，整体操控感受和乘坐的感受都相当出色。我觉得这个价位非常值。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-05-07 17:17
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+时尚大气依然是这款车的代名词，整体的线条很流畅很运动，动力方面我比较满意，有推背感，动力很充足，提速很快综述：
+虽然是在开的过程中这款车会有点小毛病，但是整体来说这款车的性价比还是不错的，尤其是配置很丰富，这款车的安全性能做得很好，真皮座椅和外观都比较显档次。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-05-07 17:17
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+内饰做的很精细，尤其是座椅的皮质质感很好，座椅坐姿较高，视野较好，方向助力灵活，操作起来很方便很容易综述：
+综合空间、造型以及品牌影响力,个人认为目前该车性价比还算不错，四十万的车配置很齐全，动力也充沛，关键是开着顺手。
+upvote: 0
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-05-07 17:16
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+外形风格十足，大气时尚，整体看起来很有动感，很喜欢前脸的设计，动力挺给力的，起步声音小，静音加运动系列，底盘高且扎实综述：
+我个人认为性价比很高，三十万左右就能把宝马开回家了，而且在配置和动力方面都还有惊喜，我感觉我是不是淘到宝了。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-05-07 17:16
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+动力感觉非常不错，感觉好像轻轻碰一下油门车子就要蹿起来了，起步是非常快的，电动助力的方向盘，指向比较精确，指哪打哪的感觉综述：
+空间超出想象，动力和操控都是实在没话说，太棒了，外观保持了宝马的传统，辨识度很高，所以还是物有所值的。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-05-07 17:15
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+中控彩色大屏比较有感觉，真皮方向盘、真皮座椅都很有质感，电动助力的方向盘，指向比较精确，指哪打哪的感觉，刹车很有力综述：
+空间超出想象，动力和操控都是实在没话说，太棒了，外观保持了宝马的传统，辨识度很高，所以还是物有所值的。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-05-07 17:15
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+外形还是比较酷的，属于比较犀利有棱角的感觉，内饰做工还算不错，可以说做工比较精致，操控方面很容易狠简单，方向盘的指向性也很明确，刹车也很灵活，操控起来很容易上手。综述：
+性价比还算是比较合理的，外观绝对够时尚够前卫，各种配置也很齐全，座椅舒适性和空间都很满意
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-05-07 17:14
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+当你踩下油门的时候，会感觉动力源源不断的输出，1.6T很够用。坐上去有一种进入赛车的感觉，可以给身体很好的支撑。综述：
+这个价位买到后驱车，很值。性价比很好。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-05-07 17:14
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+比较宽敞，后排也令人满意，刹车很有力，转向精准，开车很有信心综述：
+外观出色，路面反馈特别好，空间没得说大，动力强劲，油耗适中，性价比满意。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-04-28 11:55
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+一个字。帅。两个字很帅。三个字，真是帅！综述：
+动力完全足够，开160以上油门还随叫随到，。。。
+upvote: 0
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-04-28 11:55
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+一个字。帅。两个字很帅。三个字，真是帅！综述：
+动力完全足够，开160以上油门还随叫随到，。。。
+upvote: 0
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-04-28 11:54
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+方向盘握感舒适，转向非常灵敏，真正的是指哪打哪，而且方向盘回馈力道非常好，真正享受方向盘在手中滑过的感觉。也许我开的好车不多，但这绝对是同级别中感觉最好的。综述：
+最优势一点：宝马的保养周期长，保养价格比奥迪、奔驰要低。这点特别满意。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-04-28 11:51
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+强悍的动力和不错的配置，全景摄像头+方向盘加热时多少同价位甚至更高级的车都没有的，M方向盘手感极佳，精准的操控配合可变转向比，开起来得心应手，最后外观也很帅气，低调的帅气，不张扬缺点：
+屁股不是太满意，其他地方感觉很棒，综述：
+如果你喜欢3系宝马，遇到它，收了吧，320很多人纠结内饰和配置和动力，现在全有了，多出来的东西绝对不是外面花车辆差价的价格能弥补的回来
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-04-28 11:50
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+操控！当我驾驶者小三在繁忙的城市道路上穿梭，无论怎么复杂的路况都是充满了自信，该超车的时候提速迅速，该减速的时候刹车灵敏，该转向的时候，指向精准。综述：
+外观是大爱！泡妞神器，尤其家装了天使眼以后，回头率很高！因为街上三系比5系要少很多，三系短轴的更少，长轴的有些臃肿。天使眼配上灯眉非常犀利！外观很有流线型，车头很霸气。后边的翘臀很性感，尤其是改了M套件，不改之前太秀气
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-04-24 11:03
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+操控游刃有余，运动感比较强。综述：
+人性化细节设计很不错，座椅记忆，加热，空调，
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-04-24 11:01
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+内饰用料做工还算不错，简单大方。综述：
+动力可圈可点，随心所欲。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-04-24 11:00
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+运动，不失豪华缺点：
+后排空间稍显拥挤，综述：
+操控很完美
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-04-24 10:58
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+很多人说宝马的操控一流，自己开下来果然不负盛名，刹车很有力，装箱精准，开车很有信心。缺点：
+很多中级车该有的配置没有，综述：
+外观出色，路面反馈特别好，空间没得说大，动力强劲，油耗适中。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-04-24 10:52
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+外观设计继续保持着原有的优势，内饰设计也保持了较高的档次和舒适度，综述：
+在动力和操控方面依然运动性很强，
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-04-09 11:57
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+方向盘握感舒适，转向非常灵敏，操控，正常驾驶一般人不会感觉有太大区别，激烈驾驶和遇到紧急情况时候就会知道什么叫操控了，车子的动态跟驾驶者预想的一样，不会有多余的动作，很精准，很宝马。缺点：
+我觉得还是它的内饰 30万左右的车了 内饰看上去就那么没档次。综述：
+操控感非常好，动力强劲，具有宝马的风格。
+upvote: 1
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-03-11 16:08
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+重操控的一款车型，外观也很运动漂亮。缺点：
+内饰一般综述：
+底盘很好，富有运动基因
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-03-02 17:28
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+运动，外观很漂亮。缺点：
+内饰的用料比较的一般，动力表现不错。综述：
+油耗表现不错，底盘表现十分的不错，另外操控十分的不错。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-02-28 14:24
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+座椅不是真皮，内饰用料太一般了。综述：
+动力相当满意，操控很有信心，适合初级玩车。
+市区和高速（140km以内）提速迅猛，模式切换较有意思。
+upvote: 0
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-02-28 14:22
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+内外后视镜都是自动防眩目，再也不怕后面远光灯了，特别是晚上跑高速很实用
+ 近远光氙气灯，照的很亮，而且当对方车辆开远光灯会车时，我也打开远光，一般对方就乖乖的切近光了缺点：
+噪音很大，高速上面胎噪比较大，胎噪隔音就像是20万级别的。综述：
+最满意当然是动力和推背感，是本屌丝目前为止驾驶到动力最好的车子，之前开过的7系都不如328i来的有推背感。舒适性比老马6好，就是高速胎噪较大，过减速档也没有老马6那样硬邦邦的跳动。其实我本人不愿意看到3系向舒适妥协。
+upvote: 2
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-02-26 16:06
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+操控精准 推背感 后驱可以玩漂移缺点：
+油耗一直是个很头疼的，冬天的现在开着暖风油耗在11.1个油上，刚提车的时候13个油，可能没有过磨合期油耗都高吧！综述：
+空间觉着买大了！年轻人如果不商务的话买个标准的就行，如果以后还要顾家庭，就买长轴的吧！牺牲了点操控换来了空间，至于差距可以靠技术来拟补！
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-02-26 16:05
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+塑料感十强，低配的方向盘细小的不得了，好在各方面像真皮电加热记忆座椅，自动空调热，内防炫目，蓝牙电话等功能还有，14LI时尚款的就没真皮，后排出风，电加热和真皮座椅，大灯和内饰做工真心赞，但价格也贵的离谱，综合下来还是小3性价比高，后期改了HK的高音，让宝马的破喇叭稍微能听听了，改了运动款的雾灯向运动型看齐，又改了18寸的锻造轮毂，简单又不平凡的小3系，我最爱的小伙伴。
+upvote: 2
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-02-10 15:07
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+动力强，底盘很硬，虽然已经向舒适妥协了很多，但是总体还是很满意的。综述：
+后排得益于加长的轴距，能够得到不错的腿部空间
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-02-04 15:28
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+操控很好，底盘不错，动力表现满意综述：
+后排的空间经过加长之后感觉十分的满意，油耗不错，内饰的设计也突出了宝马的特色。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-01-28 15:16
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+驾驶感不错，动力强缺点：
+坐的确实有点不舒服，尤其堵车的时候，右脚很累，右腿要抽筋。综述：
+空间  大部分的时间是2个人，足够用，坐满也能接受。
+ 动力 245ps没的说，给油就冲。
+ 操控 宝马卖的就是这个。
+ 油耗 开始还真不低，过了磨合应该会好点。
+ 舒适性 坐着还行，驾驶员的右脚有点费劲。
+ 外观 犀利，流线，就是尾灯弱一些，刹车灯还是卤素的，上个LED难吗？
+ 内饰 确实比奔驰C系差，但还可以接受，别纠结，毕竟开车又不是住车里。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-01-28 15:16
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+没有定速巡航，内饰不时尚，15款不是超悦版是小屏综述：
+空间，迎宾灯，整体外形，氛围灯，动力
+
+ 没话说了，后排空间我178的个子坐进去很满意，家里有A6，所以有直接感觉，后排空间直逼A6，非常满意。
+
+ 宝马的发动机调校没话说，2.0T，180+的马力，但是平时市区开超车很轻松，随叫随到。
+
+开了一周，目前没有很直观感受到操控之王，方向盘有点重。总得来说也没有很大毛病。
+upvote: 1
+downvote: 4
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-01-26 16:45
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+最喜欢的就是中控的那一块儿大屏幕，十分的漂亮。缺点：
+运动性能没有之前的三系那么的纯粹。综述：
+后排空间真的是得到了较大的提升，不再觉得顶腿。中控的大屏幕十分的漂亮，浮出的设计也很漂亮。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-01-22 16:21
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+中控的悬浮的屏幕，给人的感觉十分的高档。缺点：
+过硬的悬挂表现综述：
+底盘比较的出色。
+upvote: 0
+downvote: 2
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-01-21 14:33
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+刚回来时候空空的后备箱，马上就要上街装满了，而且车子的后排的空间就是好就是喜欢。没有不好的地方的了
+车子还是搭载2.0T的发动机，并且还是绚丽的8速手自一体变速箱，要知道这样的变速箱还是非常的厉害
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-01-21 14:33
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+车子非常的追求操控性而放弃了很多的舒适性，尤其是车子的悬架有点儿硬是真的综述：
+全车哈卡曼顿16音响，座椅包上秀的“马”字更加清晰的显示出了他的身份！霸气的黑鼻孔，霸气车身，397大轮毂！还有那个延伸到进风口的大灯，比之前的好看的多了
+漂亮的运动内饰！马版LOGO，红色缝线！赞，后排座椅一样都是高档红线缝合！大赞，中控做工没的说，运动座椅缝线样样到位，后面买了3D运动坐垫，上车就有驾驶的冲动
+upvote: 0
+downvote: 2
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-01-20 15:26
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+向来以操控著称的宝马三系，操控的确不错，转向十分的精准。缺点：
+舒适性一般综述：
+过弯的时候很有快感，在附着力较低的路面行车时候，需要注意油门的控制。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-01-15 15:42
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+新3系安全配置齐全，前排电动座椅及记忆功能、座椅加热、双区自动空调也都具备。但是音响效果较差，并且时尚型无前雷达。
+新3系的2.0T发动机相比其它品牌同排量的发动机，数据上毫无优势，但得益于ZF的8AT的先进性，发动机与变速箱完美匹配，驾驶起来游刃有余，动力充沛的同时还兼顾了省油和平顺性。
+upvote: 1
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-01-15 15:42
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+新3系内饰做工欠佳，特别是与同档次其它品牌车型相比，用量和做工都稍逊一筹，仪表盘造型万年不变。综述：
+新3系造型非常时尚，开眼角大灯造型很有攻击性。底盘扎实，变速箱和发动机匹配很好，既平顺，又省油，而且加速很快。
+新3系外观很拉风，车头开眼角大灯是亮点，车尾灯点亮后效果很漂亮，车身线条流畅，发动机盖四条隆起和车身侧面的腰线显示出很强的力量感。
+upvote: 1
+downvote: 2
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-01-13 15:27
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+总体造型还是很漂亮的，内饰的设计比较的不错，动力表现很强大。缺点：
+油耗表现一般综述：
+空间有了较大的进步，不再像之前的那么的局促，配置上也十分的人性化。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-01-13 15:07
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+方向盘的握感很好，转向十分的灵活，指向也十分的精准。缺点：
+舒适性一般综述：
+空间不用说，实际体验非常的好，动力也很好，高速不会吃力。操控很完美，舒适性也很不错。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-01-09 14:45
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+驾驶乐趣十足，动力表现出色。缺点：
+内饰的用料相对一般综述：
+总的来说，这代的3系，操控上不如上代的那么优秀，有点向舒适性妥协。当然这是大势所趋。空间表现非常的满意。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-01-08 16:27
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+操控好，动力出色。内饰的设计十分的漂亮。缺点：
+油耗稍高综述：
+操控不错，内饰的设计也相对较好。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-01-07 10:48
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+行驶的过程中驾驶乐趣十足。缺点：
+暂时没有发现什么缺点。综述：
+动力输出的比较直接，内饰的做工也十分的精良，内饰表现也相对不错。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-12-31 17:19
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+马力足 外形吸引人，科技感十足缺点：
+舒适性不理想，悬架较硬综述：
+那速度没的说，就喜欢着激情
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-12-31 10:35
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+外观的设计非常的漂亮，底盘和悬挂的整体反馈都十分的不错。综述：
+油耗表现十分的优秀，动力较强，操控十分的精准。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-12-30 17:26
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+造型高雅 动力强劲 质量优良缺点：
+悬架较硬 舒适性一般综述：
+车是好车，质量没的说绝对上佳
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-12-29 10:58
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+动力强劲，底盘十分的出色。综述：
+油耗表现非常的满意，在日常的行驶中，在保证乐趣的前提下还能有11个左右的综合油耗，对此还是很满意的。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-12-26 15:06
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+动力不错，外观设计的也非常的漂亮，内饰亮眼，感觉很有科技感、综述：
+内饰营造了很好的科技感和豪华感，但是在用料上就有那么点抠门了。配置不错。比起奥迪好很多。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-12-25 10:44
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+年轻时尚的外观设计，个人非常的喜欢缺点：
+内饰的用料表现一般。综述：
+底盘很好，操纵起来也非常的有路感。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-12-18 10:54
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+动力很不错，加速十分的给力缺点：
+内饰的用料让人表示堪忧，毕竟是宝马呢，但是这个用料的塑料感太强了。综述：
+底盘表现较好，非常的运动，调教的十分的豪华，动力表现十分优秀，加速迅速。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-12-17 16:14
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+操控好，底盘运动。缺点：
+油耗稍高，内饰塑料感强。综述：
+底盘非常的运动，影响了一定的舒适性，内部的空间不小，相比上代有了更大的进步。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-12-16 11:14
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+外观漂亮，底盘出色，内饰做工较好。缺点：
+内饰用料稍差，塑料感强综述：
+底盘很有韧劲，过弯的倾侧很小，底盘也相对的比较出色。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-12-15 15:09
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+做工出色，底盘表现十分的优秀，过弯的倾侧小，支撑好，表现优异。缺点：
+内饰的用料上需要下功夫。综述：
+从外观上看，非常的漂亮，一贯的宝马双 造型，动感大气，内部的空间比起之前的3系也有了很大的进步，值得表扬。
+upvote: 1
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-12-12 11:13
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+外观非常的时尚，动力强大。缺点：
+内饰的做工稍差综述：
+底盘调教运动，运动性能十分的突出。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-12-11 16:25
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+操控，其实这个概念大家都懂，但是能够体验到的人我觉得应该是很少的，一班车的超控对大家来说都够用，日常的驾驶中，都不会逼向极限操控。缺点：
+油耗稍大些，但是好在在能够接受的范围。综述：
+空间方面，经过加长，感觉不错，后排也终于像那么回事了。
+upvote: 1
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-12-10 11:36
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+外观造型上，依旧是宝马的一贯风格，造型十分的漂亮，动感犀利。缺点：
+内饰的做工稍差一点。综述：
+内饰方面设计的很好，层次分明，但是在用料上的表现相对较差些。
+upvote: 0
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-12-09 15:42
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+外观漂亮，内饰做工精致。油耗低。缺点：
+悬挂稍硬，空间稍小。综述：
+底盘和内饰的做工很好，无论是在车厢内还是在车厢外，都能感受到不错的豪华感。动力方面的表现相对较好，随叫随到，非常的充裕。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-12-09 15:33
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+外观漂亮，内饰做工好。缺点：
+底盘出色，过弯极限高。综述：
+油耗表现好，目前3000公里综合油耗11个。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-12-05 10:44
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+动力足，外观好看。综述：
+328的动力十分够用，偶尔激情一下也未尝不可，底盘悬架调教的虽然向舒适性靠拢，但是还是能够保证基本的舒适性的。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-12-04 15:56
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+造型相比上代来讲，更加的激进漂亮。底盘的表现也非常的不错，运动感觉强烈。缺点：
+油耗感觉有点高。综述：
+空间也不错，后排的空间几乎跟5系的差不多了，另外，动力7秒的0到100，我觉得也足够了。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-12-03 16:49
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+运动基因丰富，动力调教较好，变速箱换挡逻辑优秀。缺点：
+塑料内饰综述：
+底盘表现很好，运动感强，过弯的倾侧小，油耗方面的表现也相对不错。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-12-03 10:43
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+操控不错，动力的响应也十分的迅速。综述：
+虽然加长了轴距，但是对与操控的影响感觉来看也不是那么的大，动力的响应十分的迅速。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-11-26 13:41
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+整体偏向于豪华，内饰的做工稍微差些，底盘和操控的表现不如上一代3系那么的纯粹。缺点：
+底盘的运动性能跟上一代的3系有着明显的差距。综述：
+仍然是一个可以开的很快的车子，动力传动高效，内饰的做工值得吐槽。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-11-20 15:33
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+外观典雅 动力十足 质量优良 空间大缺点：
+悬挂较硬 过减速带时不太舒服 电子设备科技感不够强烈。综述：
+外观，性能都是我换购这辆车的原因。欢喜的不得了啊
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-11-18 15:51
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+时尚的外观，精准的转向，以及豪华的内饰设计风格。缺点：
+内饰的用料不够豪华。综述：
+虽然内饰的设计上偏向于豪华，但是在用料上却不太沾边。相对而言，宝马更出色的是操控的性能，十分的不错。底盘的表现也相对不错，能够带来不错的路感，不过牺牲了一定的舒适性，动力表现十分的满意，2.0T的高功率版本，动力的迟滞非常的小。此外座椅的包裹性也比较到位，提供不错的侧向支撑和腰部支撑，以及腿部支撑。
+upvote: 1
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-11-17 16:33
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+操控和动力缺点：
+内饰综述：
+先吐槽，内饰的用料真宝马，用料真心不好，塑料，塑料还是塑料。另外，车子的舒适性较差，为操控的牺牲值不值得就得大家去评判了。我认为是值得的。
+动力的表现不错，相对比较不错，随叫随到，踩下就有。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-11-17 15:19
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+外观时尚 动力充沛 内饰考究缺点：
+养车成本较高，噪声较大综述：
+宝马车养车成本高一直是顽疾，但售后服务确实没得说。也许这就叫好货不便宜吧
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-11-14 13:42
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+运动性，操控。缺点：
+内饰不上档次。综述：
+动力足够使用，前排的头部，腿部的空间非常的满意，没有空间上的压抑感，后排相对较小，特别是头部的空间，坐两个人才比较的合适。油耗9.3左右，比较的满意。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-11-13 10:20
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+操控性能不俗，油耗表现出色。缺点：
+在内饰上不够用心，还欠缺些。。。综述：
+向来以操控著称的宝马3系这次果然没有让我失望，底盘的避震弹簧和悬挂表现的十分的紧凑，调教的非常运动。另外内饰的做工出色，但是在用料上就有些欠缺了。总之宝马3系是一辆非常有驾驶乐趣的车子，绝对值得。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-11-12 14:37
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+时尚的外观 考究的内饰 绝佳的乘坐体验 几乎秉承了德系车一贯的特点。动力方面也有上佳的表现缺点：
+车内空间不够 高速噪声较高综述：
+第一眼看到3系 就被它的外形所吸引，之后的表现没有让我失望。各个细节的人性化的设计让人折服
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-11-12 09:44
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+动力强劲 外观时尚 操控性能绝对上乘。缺点：
+售后保养较贵 凉车启动噪声较大，貌似好多德国车都有这个毛病综述：
+整体表现没有让人失望，秉承了德国车一贯的品质。要是保养价格在便宜一点就更好了。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-11-11 14:42
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+外形动感 车内空间宽大 质量良好缺点：
+座椅调节不方便 座椅舒适度有待提高综述：
+城市路况表现比较满意 空间也大 完全可以胜任日常家庭所需
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-11-11 14:34
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+外形美观 动力强劲 技术一流缺点：
+乘坐舒适度一般 感觉悬架有点硬综述：
+宝马的口碑一向良好 一直也没出毛病
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-11-10 15:58
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+操控十分的不错，老生长叹了。油耗也相对不错，9个左右。缺点：
+内饰的用料需要提升一个档次，塑料太多。综述：
+宝马的操控向来以精准著称，的却如此，底盘表现的很扎实非常的具有厚重感。操控起来信心十足，无论是是过弯还是加速都很给力。
+upvote: 1
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-11-07 15:40
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+车灯非常的漂亮，天使眼很吸引人眼球。缺点：
+没有电子刹车不得不吐槽一下。综述：
+加长后的三系内部的空间十分的宽敞，带来很不错的乘坐感受，此外，宝马向来以操控为著称，果真操控的功底很强，加速转向都给驾驶者充足的信心。油耗的表现也相对不错，9个左右的基本能够满我的使用要求。
+upvote: 3
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-11-05 13:23
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+品牌影响力较强，另外加上骚红色的外观，赚取了不错的回头率。缺点：
+同等价格同等级别中，配置不够丰富。综述：
+悬挂非常的硬，在一定程度上牺牲了舒适性，当然，加强了运动个性，操控不错。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-11-04 15:47
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+车子的内部空间很大，2920的轴距看来还是功不可没啊。缺点：
+发动机的声音有点大，内饰的装配也不是很好，异响过于明显，共振较多，油耗高。综述：
+空间家用的话，完全够用，另外动力虽说是低功率版本的，但是一般超车的话轻踩油门就够用了。
+此外，油耗我的接近12个，过了磨合期也没有降下来。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-11-03 15:43
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+宝马的品牌价值，品牌文化，以及3系的运动精神是最值得的地方。缺点：
+配置低，不够人性化，例如没有眼镜盒。。。。综述：
+空间表现很好，很满意，前排够用，后排宽敞，后排中间的突起影响乘坐的舒适性。
+动力表现十分的满意，以前开的车动力也不是很强，所以这个方面对我而言差别不大。
+操控是砍价本领，不错。
+油耗表现平均9.2，还算可以，能够接受。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-10-31 16:07
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+德系操控哪家强，宝马理应被选上。3系的操控还是很纯粹的，328的动力也不是盖的，十分的充沛，随叫随到。在底盘的调教上，十分的运动，支撑性很好，过弯的极限很高，倾侧很小。
+另外，只要驾驶习惯良好，就能获得不错的油耗表现。我的平均下来12个左右，有时候也能够9个左右。
+运动性保证了，就牺牲了一定的舒适性，所以，这点还是有点不够满意。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-10-30 14:46
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+操控十分的出色，外观犀利。缺点：
+排气为单出的，有点说不过去。综述：
+买的最低配的316的车型，动力感觉能够满足需要，地板油也能够偶尔的激情一下。
+另外，内饰的做工确实比不上奔驰和奥迪，对比朋友的奥迪，内部的软质材料手感要比宝马的好许多。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-10-28 16:32
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+操控绝对1流，我认为后起的凯迪拉克ATS也不足以给她构成威胁。
+宝马的外观就那样，基本上差别不大，除了车身尺寸方面，外观的差别仅限于细节部分。
+另外，宝马的动力表现还是值得称赞的，虽然是低功率版本的，但是无论是市区还是高速都能够让我满意。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-10-24 16:22
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+操控很棒，外观非常的漂亮，颜色选得水晶蓝，这个颜色撞色的可能性很小，也很嫖了，十分的优雅。ZF的8速变速箱，配合N20B20的发动机，相当的默契，后期改装的潜力也十分的大，低配的音箱也很好，毕竟我以前20的耳机都感觉贵。
+后排的空间十分的大， 跟5系的差不多。有很高市区高速各半，目前油耗8.5个。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-10-24 16:22
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+操控很棒，外观非常的漂亮，颜色选得水晶蓝，这个颜色撞色的可能性很小，也很嫖了，十分的优雅。ZF的8速变速箱，配合N20B20的发动机，相当的默契，后期改装的潜力也十分的大，低配的音箱也很好，毕竟我以前20的耳机都感觉贵。
+后排的空间十分的大， 跟5系的差不多。有很高市区高速各半，目前油耗8.5个。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-10-22 16:05
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+指向精准，宝马嘛买点就是操控，肯定没问题。缺点：
+豪华木纹异响，虽然只是偶尔，但是还是很恼人的。综述：
+总结： 加长后的三系还是很长的，空间表现不错，都款赶上5系了，个人感觉。动力的表现也让人十分的满意。变速箱能够随着人的意愿升降挡，非常的聪明。操控一点也不拖泥带水，非常的精准。油耗表现不错，高速非常省油，综合油耗8个左右。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-10-20 16:37
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+外观犀利，男人的梦想蓝天白云。缺点：
+悬挂偏硬。综述：
+新3系的N20+8AT黄金组合，是它引以为傲的动力表现，体现在积极的升减档，提升更为直接的动力表现，以及很低的油耗表现，让我十分的满意。目前为止行驶了8400公里，基本上没有跑过高速，市区道路在90%以上，ECO模式常开，目前的行车电脑显示的油耗是10.8L/100Km，我觉得2.0t的车子能有这样的油耗而且还基本都是市区道路的，跟驾驶习惯有着直接的关系，但是更重要的也是车子自身的性能所决定的，十分满意。
+3系的驾驶感觉非常好，转向的回馈力度合适，底盘的反馈也十分的可靠。
+同级别而言，除了ATS之外，3系的运动性能表现无人能敌。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-10-16 14:03
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+新3系的外观还是非常吸引人的，让人过目不忘，这也是每一款bmw所做到的，宝马的动力很好，油耗控制的也很不错，加速成绩也很不错。
+悬架的调教相对较硬朗，这样的话，舒适型就有了折扣。内部空间随着轴距的加长也有所改善，内饰的设计也十分上档次。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-10-14 14:59
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+这款车给我的印象是省油，不仅操控很好，而且也很省油。
+当然，宝马的外观还是很能征服男人那一颗向往蓝天白云的心的，天使眼就不说了，内部的灯光在晚上营造出十分漂亮的氛围。
+车内中控和门板的用料也相对高档，皮质摸起来都很舒服。
+操控跟大家感受的都差不多，十分精准的转向和扎实的底盘，都能给我们带来不错的驾驶感受。
+前后排的空间也都表现的不错，这得益于加长的轴距。乘坐的舒适性大大增加。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-10-10 16:56
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+前置后驱，富有驾驶乐趣。缺点：
+后排中间的地板凸起太高，影响乘坐的舒适性。综述：
+蓝天白云，很多男人的梦想，操控绝对没的说，动力够用。指向精准，前置后驱，驾驶乐趣十足。即使，1.6的入门版，动力也足够用，超车巡航，毫无压力，外观和内饰都给人以豪华的感受，电子档杆科技感十足。是一个提高逼格的利器。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-09-26 18:25
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+操控性好，性价比高，外型抢眼。我的是墨尔本红，不错。缺点：
+还可以啊，总之不比A4费油综述：
+抢眼，尤其是天使眼，比奥迪泪眼好看漂亮多了。开着特别有自信。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-07-25 16:02
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+转向精准，就是悬架有点软综述：
+非常满意，目前一保都没到，8.5的综合油耗，长途曾经跑过4.4的油耗，非常满意。舒适性不错，悬架比较软还不错，天使眼很漂亮，侧面线条也很流畅优美，
+upvote: 0
+downvote: 2
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-07-25 16:02
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+动力在这个价位算是非常不错了，舒适模式下一踩就有，动力比较平顺（相对于其他涡轮车，还是比不了自吸），因为买的是短轴，空间还不错，但是也不能说很好。储物空间一般，中控下方储物空间略小。动力十足，这个不说了，一脚油门就是满满的推背感。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-07-23 09:07
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+推背感强烈，提速快缺点：
+后端劲不足，底盘坐的屁股都麻了综述：
+这车没开过，但是坐过了，自吸发动机的起步都非常迅猛，更不要说如今的涡轮，推背感很爽，但是价格偏高，而且底盘太硬，减速带给坐车人的人非常不舒服
+upvote: 1
+downvote: 10
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-07-17 16:31
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+操控行很好，舒适性还行 ，内饰感觉还不错，到底还是黑内好看，对米色内饰实在无爱，宝马3系无论新款还是旧款操控性都非常好！ 车子很稳健的变过去而且能带着刹车停住，以前开过其他的车也紧急变过道，那车得左右晃悠半天才停下来，良好的操控给出行安全增加很多分。很满意。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-07-08 15:22
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+操控很完美，就喜欢，外形就比较犀利
+动力十足，宝马的值得常赞的地方
+很严谨的内饰，时尚型的配置少了点。不过发现什么都可以加装
+有点费油，主要还是油价越来越高。像以前的油价谁在乎啊！
+upvote: 0
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-06-30 14:45
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+扎实，稳重，基本感觉不到瓶颈，能力在偶的动态范围之外综述：
+颜色满足视觉享受，实际东西还不错，基本接受
+比较喜欢这种简洁的中控。对比福克斯，总觉得按钮太多，有点飞行器的味道，怎么都不像一款家比较喜欢宝马的门窗设计：后视镜底座两段式以及后门窗户跨越车门和车体的那种不好接受。整体感觉很不错，坐进去几乎没有让你觉得不协调的地方：刹车舒服、油门理想、方向很好、空调给力。。。发动机不错、底盘优秀、飘洋过 你还能指望什么呢？就他了
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-06-23 15:00
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+个人认为3系在同级别里面算是比较不错的车子，三系从以前的E90时代开始给人留下的是运动的特性，操控好，但是付出的代价就是悬挂行程短避震硬乘坐空间小。，3系与ATS都是强调运动的车子，所以楼主买车主要考虑个人用途、喜好。当然新款三系的长轴距版本空间非常的宽敞，尤其是后排，在豪华套装与风尚套装的配置也比较丰富，当然短轴距也有M套装和运动套装可供选择，相比同级别的车子三系是一款个性鲜明的产品。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-06-16 15:07
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+不过3系的操控在民用车中也是佼佼者。  虽然3系的操控极限不敢说，但是3系的转向非常精确，这个精确不是说方向灵敏，而是方向有些“迟钝”，这个迟钝就是精确，也叫 “低灵敏度” 方向盘 跑高速有优势，信心十足，丝毫没有松懈，也能在更快的时间知道跑偏了，然后在修正方向盘，能在第一时间把汽车的信息反馈到车主身上，这也许就叫人车合一的感觉吧。
+
+ 而且过弯姿势的建立也是非常恰到好处，过弯姿势建立的过早过晚都不好。过早会导致操控措手不及，无法感觉方向打多少，在匝道，有时候打多了要在回，回多了又要打。过晚会导致路感缺失，侧倾明显，虚的慌。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-06-09 15:12
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+价格便宜，而且外观还算不错缺点：
+空间小，故障很多。方向盘很重综述：
+安全是没得说，因为有很多制约和防爆轮胎隔音效果不好，噪音大。杯托质量不好，放上饮料后，很大的震动和响声。
+upvote: 1
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-05-29 13:48
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+提速表现优秀,动力源源不断。运动模式就一个字。。。爽。综述：
+我是米色内饰,运动感更佳,如果米购的话上运动版那就是最好的选择。空调面板不够漂亮
+空间作为短轴版的3系应该说还是比较紧凑,但是我觉得够用了毕竟如果追求大空间的话不会考虑三厢车！
+开起来还是不错的,前排的座椅坐起来马马虎虎吧,也谈不上包裹性,而且也就合成皮
+定速巡航系统尤其满意，本身就是为这个功能导致换车，长途比较多，尤其仪表上的显示方式，很满意，非常赞！
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-05-27 14:46
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+运动时尚，经典耐看。
+用料和做工还算不错，简洁大方，经典耐看。虽然新三系已上市，但内饰还是不及这代3系经典。综述：
+自然吸气提速较慢，相比涡轮的提速有很大差距。
+底盘扎实，转向十分精准，指哪打哪，毫不含糊，比较硬朗的悬挂给了良好的路感反馈，这是3系最大的卖点。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-05-27 14:45
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+新三儿 犀利霸气
+用料做工还算不错，简单大方综述：
+就1个人用，空间足矣
+动力可圈可点，随心所欲
+这是3系最大的卖点，转向十分精准，指哪打哪，毫不含糊
+人性化细节设计很不错，座椅记忆、加热、空调等
+的确没有日系的座椅舒适，运动感比较强
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-05-07 16:06
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+必须是空间，我是1.9米的大胖子，但是我开车，我身后再坐一个和我一样身材的也没问题。后排拉着老人和孩子出游很宽敞，当时就是冲着Li买的3系。必须赞，3系Li的第一大优势，居家旅行，商务办公之必选良伴^_^缺点：
+冷车启动，发动机声音真的不是一般的大，比家里开了10年的车动静都大综述：
+个人一直认为没有肉车，只有肉人。再者说320的低功率版N20已经满足日常需要了，咱又不上赛道，平时高速、国道从不超速，偶尔急超车，调到sport+模式，动力也是随叫随有。3系的口号不就是驾驶者之车嘛，加长以后操控感一点没落下，还是很好地。现在百公里综合油耗8.1，高速居多，但是市区也很堵，堵的时候全程ECOPro模式，依然比较省。
+upvote: 2
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-05-05 15:15
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+总之320豪华的性价比是3系里居家上班的最佳选择。要外观有外观要配置有配置。倒影电耳导航一步到位了。动力在市区里的也杠杠的绝对会让你够用！是款性价比很高的车车哦油耗确实是低啊，加400油大概可以跑700公里，这油耗快赶上我原来的1.5嘉年华了。。。也就是平时上下班开的路况，平均时速30多吧，很满意了！
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-05-05 15:15
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+3系的后排是公众的大啊。我178CM的个子在后排都能翘腿啊。真的是很夸张啊。驾驶座的位置也是非常的充足，个子高的人也不要担心了缺点：
+座位没有腰部支撑。平时开还好但是上高速一跑久就明显感觉有点累了。总体来说是中庸把。比奔驰C200舒服和A4差不多综述：
+真是帅！非常喜欢这次大该款的设计完全就是年轻人的不二选择！扁平的前脸很酷有木有啊！开眼角更拉风更闪眼有木有啊我的是棕内。我想大部分豪华车主都会选择把。这个颜色又耐脏又好看。做工还是非常不错的。就是现在新车有点皮子味感觉。还有就是按键的塑料感有点强啊。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-04-29 11:37
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+有点费油，主要还是油价越来越高。像以前的油价谁在乎啊！综述：
+很严谨的内饰，时尚型的配置少了点。不过发现什么都可以加装
+空间很满意，不大不小正好！需要大空间就去买行政级的了
+驾驶副驾驶安全气囊配有的了真的挺安全的
+2.0的稍嫌动力差了点，不过也还好！一般超个车没问题
+我看好多人都说3系舒适性差，我觉得还好啊！太舒适了爱晕车
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-04-25 14:30
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+操控非常出色,过弯很稳妥!
+很拉风,回头率很高.尤其是天使眼!综述：
+后排空间超出个人想象.一般家庭可以考虑买普通版没必要买加长版.
+240马力不是吹的,尤其在运动模式下油门踩下去的瞬间,动力十足即便在100KM的速度加速也是杠杠的.
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-04-25 14:30
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+尾灯和新款设计的天使眼是亮点，当然换成双排的排气管会更霸气啦啦啦。综述：
+配置个性化，符合年轻一代的价值观和追求。
+涡轮过1000转的时候会介入，爆发出很强大的扭矩，转化成动力的速度和激情。
+新款是趋向舒适化的，适合年纪稍微大一点的人开，但是有老有小的，这样也未尝不好。
+减震片有很好的减震效果，比起旧款舒服。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-04-23 14:32
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+尾灯和新款设计的天使眼是亮点，当然换成双排的排气管会更霸气啦啦啦。
+我选的是黑和红搭配的内饰，运动感很强。座椅也是运动型的，满足了不能买跑车的亲感受运动风。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-04-23 14:31
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+宝马敏感快捷的操控反馈最让新喜欢了。335的动力很猛，推背感十足；方向盘手感很差；油耗确实很给力.综述：
+操控性真一般，估计是加长轴距的原因；座椅很硬；维修和保养的费用过高，可能配件还是进口的吧。
+天使眼的经典造型早已经风靡万千少女，包含我在内，哈哈。
+四到五个人是宝马最舒服的状态，再多就装不下去了，那都该换SUV去了吧。
+举起拇指给个赞赏，高速过弯的时候支撑很到位，路感反馈也很强烈。底盘其实还不错，偏硬又不失舒适型,但是胎噪偏大.
+upvote: 3
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-04-16 16:52
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+减速带只能被颠了。悬挂还是有些硬，不过只要后面不做领导，这不是问题。相反要是悬挂太软，不小心磕了底盘就不好了。综述：
+简约耐看，以前看准的是新款E260L，可觉得它太长不适合“开”。宝马的仪表盘以前是我最不喜欢的，觉得和奔驰相比“太土”，后来上车开了才发现其实仪表盘不需要太“花哨”——不会分散你的注意力，该有的还都有。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-04-16 16:51
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+大气 其实320Li远处一看和5系差不多。也许就是为了和5系区分开，所以320Li的装饰条故意拉长了点。缺点：
+异响 每每听到东一下西一下的异响 就只能安慰自己——开着好就好综述：
+有着很好的操控性尤其是运动模式，油门相当灵敏 很能跟得上节奏。让人有开快的冲动，因为你不知不觉速度就上去了，应该和底盘重有关系吧 整体车很稳，也就不觉得快了。宝马前轮很靠前，这让转向很准。超车时这点应该也会得到验证，只不过暂时还没有体验过高速超车，具体以后再看。其实每次进小区时，方向盘左打右打的更别有一番乐趣。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-04-10 16:54
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+内饰中规中举，不算很精致，用料还行。中控台用的是硬塑料，打上皮纹，这点不好车头太长，要适应一段时间；地盘较低，烂路容易刮底；后备箱空间480升，家用勉强够用；空调、自动启停默认开启，每次都要手动关闭；音响一般，对不住宝马牌子；时尚16寸轮毂不够霸气；有老板键和遮阳帘，不错。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-04-10 16:53
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+犀利，回头率很高。开眼角的天使眼很漂亮，前脸线条犀利，不怒自威；车身腰线贯通头尾，非常硬朗，符合宝马定位；车尾简洁大方，尾灯光带很炫目，特别是晚上，宝马标志之一缺点：
+冷车启动声音过大，简直象拖拉机，实在对不住宝马的牌子。综述：
+空间 长轴版空间不错，后排可以翘二郎腿，还有老板键，对后排照顾不错。但后排做3个大人横向会有点挤。
+ 动力 超强，提速很快，在市区超车变道很流畅，如行云流水一般。没有顿挫感，换挡很平顺，8速电子档很好用，宝马标致之一。
+ 操控 精准，指哪打哪。方向盘几乎没有虚位，稍微一动车就跟着动，回馈力也不错。
+ 油耗 高速很省，大约6.5升/百公里，纯市区10升左右，也还在可接收范围之内。
+ 舒适性 一般，座椅太硬。长途可能腰会累，可以买个腰靠垫一下，会好很多。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-04-02 17:09
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+尽管是320，但是动力也足够用了，运动档模式下，提速非常迅猛，非常满意。操控就不说了，宝马招牌，车随意动，指哪儿走哪儿，过弯、并线非常的稳当。综述：
+这是另一个最满意的地方，油耗是相当的低，在上海，2.0排量的，能开到9个油，还有啥不满意的？舒适性是唯一没给5分的地方，主要有两个地方不满意，一个是隔音差，音箱效果一般，甚至比不过差一个档次的君越，另一个不满意的地方就是，驾驶舱密封不严，在开天窗或者窗子开个小缝隙的情况下会有异味飘进来。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-04-02 17:06
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+最满意的就是3系的外观了，从第一眼看到他，就中毒了，应该说我关注了宝马和多年，觉得这一代的三系的外观最能打动我。缺点：
+气味很大，可能是新车的缘故，不过真的比我老的进口科帕奇要大得多，刚提车那会，坐上去时间久了，会觉得有点不舒服的。综述：
+比想象中要好，之前人常言宝马舒适很烂，但是这一代宝马3系好像向舒适度作了一定的妥协，在兼顾运动的同时，悬挂也软了不少。完美的外观，目前还没发现其他能比他更打动我的同价格区间的车子。都说宝马内饰烂，其实我个人感觉还可以，比奥迪奔驰那是还是有点差距的，但是没有传说中的那么明显，至于异响，这个需要长时间取检验才知道。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-29 10:39
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+原车后胎255，过弯时信心十足，最喜欢看着仪表盘的小黄灯狂闪。
+upvote: 1
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-28 15:28
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+平均油耗10个左右较满意。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-28 15:05
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+不是经常有，慢速的时候就容易出现声音，吱吱的声音，停车后用力按压后备厢也同样有这样的声音。车跑起来就没有声音了 请问是什么故障？？
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-28 14:11
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+刚才洗车回家路上轻踩刹车，前方刹车“咯咯胳”的一阵巨响，当时我以为是外面别的车的声音，后来继续开，声音小了点，刹车还一顿一顿的，然后我停下车，未熄火，下来看了看前轮，无异样，继续上车行驶，还是一样，后来干脆停车熄火，重新点火后，好了~~~~
+upvote: 1
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-28 12:40
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+这车不错，比奥迪A4，奔驰C级好看，性能也没得说
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-28 10:45
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+有几点感觉不是很好，一是倒车镜貌似不是防炫目的
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-28 10:44
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+假期在老家跑了300KM左右，电脑显示的 油耗从8.2回升到8.6L。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-28 09:50
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+内饰方面，感觉显示屏好可以，比较宽
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-27 17:11
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+后排空间不算大，但还行，坐个175以下的还是可以。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-27 16:24
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+随着轮胎的磨损，感觉抓地力下降了
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-27 16:00
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+提车3天，250km不到，初步感受如下
+upvote: 0
+downvote: 5
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-27 15:51
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+新车味道比较重，不知道要散多久。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-27 15:16
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+现在开了300公里，市区油耗电脑显示16L，还未上过高速。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-27 15:14
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+看起都舒服，敞蓬我最喜欢
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-27 15:01
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+非常合适年轻人开，外观漂亮，线条好看，性能好！我太喜欢了！缺点：
+保养太贵了！随便一下就是2 3000   唉  也许是我太爱惜了！综述：
+是我想要的！是我想开的！
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-27 14:38
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+今天中午，洗完车后去加油，被忽悠买了一瓶燃油宝，但是跑了没3公里进了公司的停车场，发现突然有像开了空调一样的声音。我停车保持着车状态。打开发动机盖，仔细听各个位置的声音，没有发现噪声的来源。是那种细微的丝丝声音。当我停车入库时，方向盘接近于打满的状态时，噪声变大了。我问了一下老司机，他们说这是助力泵的声音。这种声音以前从来没有，在车热的时候极为明显。有时候着车不行车的时候声音也很大，就像开了3速的空调一样。我不知道这个到底是不是跟燃油宝使用有关，还是助力泵有问题了？
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-27 13:54
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+市区还是要在15个以上。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-27 12:46
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+现在才跑2W公里 大家有这样情况不 。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-27 12:00
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+这款车不错啊！开起来挺有气派的缺点：
+其他 还可以 车型还要宽点综述：
+现在那车能在什么地方买的到 我也弄一辆
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-27 11:23
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+D档驾驶起步有点迟缓，转数先上去，车子再跟着上，在拥挤的市区就会有一顿一顿的感觉；
+upvote: 0
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-27 11:19
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+双涡轮增压，动力给力，提速快，帅气缺点：
+发动机不是太安静，转向液方面，引擎Serives灯时常亮起，
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-27 09:26
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+外观ok 使用也简单 这样的价钱 这样的功能算是比较合理缺点：
+到了120 就开始有坐飞机的感觉 是不是速度 是那种噪音 我也不知道是什么原因综述：
+总体来说 适合在市内开
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-27 09:10
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+经典而且不失时尚，优美而且骨感
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-27 09:01
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+但是2档不太好进，我觉得是因为1-2档齿比差得比较多
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-27 08:55
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+如今，还是这里，周边已经开始有新的建筑动工了，小马也陪我走过了1w4k公里！
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-27 08:40
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+车架硬朗
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-26 16:13
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+整车驾驶感觉紧绷，像一头豹子，容易激发人开快的欲望。具体点说就是方向紧，准，底盘硬，实，贴地。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-26 15:01
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+中控台水泥路面有时轻微异响，别的安好。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-26 14:51
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+仪表盘很简单实用。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-26 14:41
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+发动机发力的平顺性不够好，毕竟是涡轮增压，油门多踩一些下去，动力总是要顿一下才能爆发，我的老高尔夫虽然动力孱弱，但是用油门控制车速比335来的自如,挂d档行驶时候，发动机在2000转左右的声音粗糙，不好听，而且6at的变速箱最喜欢维持在这个转速运行。
+upvote: 1
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-26 14:40
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+主动转向在低速时候轻盈而且圈数少，减轻操作负担。高速时候沉稳，提高稳定性。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-26 12:20
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+），开这车一上手最大的感觉方向重，好像没助力一样的，咱家的大思也不算轻了，但和它比还是有很大的差距，个人感觉太重了不太适合女孩子开。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-26 11:54
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+二是无锁车后倒车镜自动折叠功能。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-26 11:29
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+我的08款325，己经30000公里了。
+upvote: 0
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-26 11:10
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+平均时速18（上下班开，基本在北京东三环），油耗在14个左右。这正常吗？
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-26 10:15
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+外观大气，线条流畅，车身结构还不错，适合我一个女孩子开，空间都还好，速度基本够用，我本月3号提的320豪华版，现在跑了2000多公里了，该拉高速了缺点：
+外观尾部怎么看都不够丰满综述：
+整体来讲性价比还是很合算的，只是现在跑磨合稍微费油
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-26 10:14
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+只能说是个垃圾车，跑车4座，转给傻X预备的
+upvote: 1
+downvote: 5
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-26 10:01
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+有一次一天长途来回奔袭1300KM,下来也没觉得累，腿也不算，腰主要不疼。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-26 09:30
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+车上坐俩人，包括司机。如果要飚车，踩油门到3千转速，超车完全没问题，需要更猛的，就换 ... 6.8，佩服佩服！
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-26 09:06
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+油耗因为几次跑长途，感觉还是可以接受的，城市不行，12个了。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-26 09:06
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+回来几天了，现在一直显示8.0。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-26 08:44
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+巡航在没车时候180-210，感觉很稳。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-25 16:17
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+外观大气，时尚，因为是老款车尾感觉有点凹进去，不过挺好的缺点：
+虽说是四座车，但是4个人坐上就挤死综述：
+动力好，适合年轻男士，但是配件少，修理的时候时间长
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-25 15:43
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+方向比10的轻很多，比较轻松点。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-25 15:27
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+30万以内的价格买到一台梦寐以求的螺旋桨，以及它的操控 真是完全继承了宝马的优良传统指哪跑哪综述：
+它后排的座位包裹性非常好 本人身高170 在前排调好的情况下腿部空间仍然有一拳半的距离 毕竟它还算是一台中级车啊316i是宝马目前为止推出的3系里边即318之后又一小排量的轿车 虽然它的排量只有1.6T但是配合上8速手自一体变速箱 那堪称完美 在拥堵的城市道路上要向超车那是分分秒秒的 比较宝马的涡轮增压是在1250转的时候就会介入 几乎就是脚刚刚放到油门上就已经进入涡轮增压的状态
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-25 15:25
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+之所以选择长轴距就是因为加长后后排空间很大，适合一家乘坐，出去旅游什么的很方便，腿部空间超级大，前排我180的个子坐进去没有任何压抑感。2.0T的低功率，说实话市区开开真的够用了，超车挂个SPORT一点也不含糊，其实曾经我也纠结过，当初早知道上328了，据说动力完全不是一个级别的，不过回过头来仔细想想，差个一两秒，不在乎，也不是天天在起步，也不是天天在飙车！不过如果给我个机会可以换328，我会毫不犹豫地换，哈哈！综述：
+个人开车是比较温和的，高速也没上130，所以对操控提速等问题没有任何意见
+ 基本能控制在10左右
+ 方向盘的路感悬挂，减震上也舒适了很多
+ 整体看起来漂亮优雅，前脸设计较为阳刚，有肌肉感
+ 中控台和显示屏看上去大气美观；但很多网友反映音响效果不理想
+ 家用还是不错的
+ 在科技含量和安全性能方面表现的也很出色，虽然有细微的不足，但瑕不掩瑜，整体来看，宝马3系还是非常值得肯定的
+upvote: 0
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-25 14:51
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+换挡很密1500转出头就升挡了（新车没用力踩），换挡感清晰，DS挡和手动拨片还未用不知感受。。。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-25 11:43
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+去年8月底订的车，9月底提车，至今已经开了2800KM。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-25 09:59
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+不知道为什么，按喇叭，手套箱里，会有滴答的 声音。按一下，就响一下
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-25 08:42
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+操控一流，转弯，超车，真是可以说随心所欲。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-24 15:49
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+稳定性好  内部设计紧凑  油耗不高缺点：
+噪音太大 特别是凉车   维修费用高
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-24 15:25
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+转向系统感觉不够顺滑，比较老高尔夫的液压助力系统，老高转向比较重，但是转动的感觉很滑，方向回正的力度也很适中，回正的感觉也是一个滑字，每次我开完335再开回老高尔夫，摸上方向盘打几下就感觉心里一阵舒坦。而且e90 335的方向盘包皮感觉像塑料一样，太粗糙，让我相当不爽。
+upvote: 0
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-24 14:44
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+刚开始新鲜没注意它,现在感觉有点闹,想知道是大伙都响着呢?还是我点高-中奖了?
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-24 14:40
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+车身稳定不错，加速到140码还好（以前坐过ls350，那个稳多了，不是同个档次）
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-24 14:08
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+335i的加速我就不谈了，这幅发动机装在2吨的X6上都能让人吃惊，就更别说3系的小车了。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-24 12:36
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+胎噪越来越大
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-24 12:14
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+开空调是7.0升一百公里。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-24 10:10
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+我想买320i硬顶敞篷跑车，不知道哪里有最低价，性能如何
+upvote: 0
+downvote: 2
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-24 10:08
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+动力方面，只能用心跳来形容其加速能力，伴随着浑厚的声浪，太爽了。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-24 09:51
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+跑了一次高速，但只保持在180公里，3500转最多， 比较稳
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-24 09:30
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+上个月订的车，前天终于到了！是从德国进口的，里程只有5KM，平均油耗差不多是40。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 16:53
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+如题。 320时尚的， 600公里了。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 16:14
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+时速160~170很稳让人有足够信心。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 16:10
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+底盘感觉整体性很好，过那些沟沟坎坎的，减速带什么的，似乎没必要可以减速，一下子冲过去就可以。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 15:17
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+说实话把蓬一敞可真骚包，立马招来MM的目光啊，心里也顿时敞亮了，虚荣心也小小的满足一下！啊哈哈
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 14:33
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+今天去了浙江绍兴的宝顺行，接待的销售抱怨这个月的业绩太差，上个月说都是4个点的折扣还卖的不错（我立马晕倒，试问有10个点的优惠电话我，销售没响）。结果试驾了水蓝色的11款318。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 14:21
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+动力的话1500转的时候车子开起来比较平衡，一上了2000就提速很快了，超车很爽，在主动转向的帮助下，只要左右轻轻移动就可以了，但要握紧方向盘，路面比较强，过弯后不太会回正方向的。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 13:20
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+发动机故障灯频繁亮起
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 12:39
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+内饰感觉宝马的有点过时了，虽然材料用的不错，但是毕竟车子出来时间比较长了，有点老气！
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 12:37
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+320开起来转向精确
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 12:37
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+悬挂感觉同polo（我怎么感觉还是我的polo路感清晰），
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 11:24
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+驾驶坐姿不太舒服，右腿容易疲劳，总向右边倒，现在我自己弄个小靠垫，放在右腿和中控台之间，好受一点。老高尔夫的座椅面的长度和宽度其实远不如335，但是椅垫向后抬起的角度比335调节到最大还要略大一点，加上油门踏板的位置比较合理，所以驾驶的时候右腿是完全压在座椅面上的，所以不用一直用力保持姿势。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 10:39
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+很好我以前天天开
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 10:27
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+过弯好，入弯积极，弯中流畅，像沿着轨道快速滑过一样。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 10:19
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+感觉不错，外观很漂亮
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 10:15
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+档把，入档的感觉。1,2，3档入档，有点重的
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 09:50
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+几乎没什么太大噪音，当然，要比Coupe版的声音稍微大些。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 09:31
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+车拿到3个月,1万公里,首保在8000公里的时候做了。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 09:27
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+动力足够，150km/h 时速，发动机转速3000转，再往下踩，加速感觉和60km/h 的时候加速感觉一样。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 09:19
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+车子才3000KM，求高手解答！ 有TX出现过类似状况吗？
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 08:57
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+座椅加热很管用，早上试了一下，最低一档，很快PP就暖暖的了！
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 08:55
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+转向很精准，过弯不用向二宝一样要修方向了
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-23 08:37
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+325i四个月跑了8000多公里
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-22 15:19
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+跑高速的时候底盘非常贴地，不管是变线还是直行感觉无比舒畅。现在高速120公里的感觉就仿佛我开老高8，90公里的感觉，很安心。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-22 14:45
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+高速油耗颇为给力，我在定速巡航下看过过120公里和140公里时候的油耗，居然和我的老高尔夫1.8相差无几，大概多出百公里1升左右。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-22 13:06
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+大家好，我的新325 踩刹车下去有吱吱的响声，注意是内部刹车地方有吱吱的声音，哪怕停车时踩也有。。。致电4S说没问题。。。但是这响声虽说不响。。。但也恼人啊！ 请问大家遇见过这样的问题嘛？ 是如何处理的？ 谢谢！
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-22 10:29
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+发动机动力充沛，高转速声音爽滑，挂在ds档上一脚油门下去感觉实在太high了，老婆说有失重的感觉。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-22 10:17
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+总之一句话 320i还是 不错的。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-22 10:14
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+320豪华 上个礼拜曾有一次发动不了，重新试一下就好了 今天试了好久都不行，，后来歇了会儿，再发，长按发动钮，行了。P档时转速变成1500多，然后我换D档上路，后来就一切正常了。 我停在地下车库，温度我看还行。 就是每天行驶距离不长，速度又慢，再加上空调座椅加热什么的，是不是没电了？ 另外，发动钮需要长按吗？我以前都是按一下放掉的，但是有的用钥匙的车，不是要转到底不放来发动的吗？不知道长按是不是一个道理？
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-22 09:16
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+空间后排坐人也还能接受。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-22 09:15
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+后座的确有点不方便，前座掀起来不会自动前移，这点被开E350 coupe的朋友笑话了》
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-22 09:15
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+刚刚洗完车开车回家路上，轻踩刹车，前方刹车“咯咯咯”一阵巨响，当时以为是车外的声音，没在意。继续行驶，轻踩刹车，“咯咯咯”声响小了点，但刹车还是一顿一顿的，停车，未熄火，下来看了一下，无异样，继续行驶，还是一样。后来干脆熄火，重新点火后，好了。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-22 09:08
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+定速巡航功能方便省力。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-22 08:50
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+油耗，12.9。350KM。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-21 16:55
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+内饰中规中矩，本就期望值不高的情况下，偶尔还会有些惊喜。银色的内饰感觉不太协调，而且还有点晃眼，所以去汽车城贴了碳纤维，钱不多，效果还是不错的。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-21 16:54
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+动力还好，特别三种驾驶模式可以自由切换，适合不同类型的驾驶习惯。转向精准，转弯半径小，加速感十足。舒适性感觉一般，过减速带的时候感觉挺明显的，可能是车子比较大的原因。综述：
+外观时尚，很动感。配合日间行车灯，看起来非常漂亮。美中不足的地方是排气，2.0T排量的轿车，怎么也得配个双排气吧，哪怕都在一侧也好啊。520也是2.0T低功率的发动机，为何就配个双排气呢。这个地方厂家不太厚道，明显就是让用户购买328，但是价格又贵了好多。权衡了一下，最终还是买了320。还有就是时尚的小轮毂，看起来也不协调。不过也好，为以后的改装留出一部分空间。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-21 16:45
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+前几天还是 15.0L/KM 现在又上去了。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-21 14:02
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+车子转速一到2000转至3000转发动机就有哗达达的响声，再拉高3000转以上就不响了，2000转以下在P档，空档，D档都不会响，3000转以上也感觉不到响声，打开机舱盖听着像是连条的响声，但自己不确定，让修车师傅看了，说是发动机下面的大轴在响。说要大修。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-21 11:49
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+318的整体内饰感觉像大众的普通档次的车。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-21 10:55
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+发动机冷车时声音不小，比以锐志要大多了。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-21 10:29
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+10月初提的车，最近比较忙，开了才1300公里。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-21 09:10
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+导航功能坑爹呀，我现在还不会用那个拼音输入，什么JB玩意，咱是搞软件的，什么数码玩意没玩过，居然玩不转这坑爹的拼音。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-19 16:32
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+动力个人觉得只要不是飙车党还是完全够用的，平时市区代步，超车轻松自如，特别是速度达到60码以后很有力，推背感蛮强烈的！动力这东西因人而异的！
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-19 16:31
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+油门相当灵敏 很能跟得上节奏。让人有开快的冲动，因为你不知不觉速度就上去了，应该和底盘重有关系吧 整体车很稳，也就不觉得快了综述：
+简约耐看，以前看准的是新款E260L，可觉得它太长不适合“开”。宝马的仪表盘以前是我最不喜欢的，觉得和奔驰相比“太土”，后来上车开了才发现其实仪表盘不需要太“花哨”——不会分散你的注意力，该有的还都有。空间很不错，特别是后排腿部空间很夸张，因为我是加长版，头部空间只能说一般了，毕竟3系的定位不是商务，还算挺满意！
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-18 14:19
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+那车不怎么好呢反正我这么觉得的
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-18 10:52
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+后排空间两个字，够用
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-18 10:50
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+车子的稳定性太好了，上高速不知不觉就上了130竟然没感觉，LP大人对此赞不绝口
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-18 08:51
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+操纵一流
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-17 15:42
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+新车，刚启动空调声音还正常，开车后因为有路噪声，感觉不明显，一旦停车关空调后感觉车厢内顿时安静了很多，车身抖动频率明显小了。觉得是压缩机有问题
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-17 14:51
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+总体内饰还是比较满意的，但看上去还不够豪华，塑料感有点强，和奔驰奥迪比都有差距，期待以后能改进。综述：
+性价比觉得稍微低了点，30多万的车很多实用配置都没有，相比同价位竞争车型有点吃亏。总体来说还是比较满意的，毕竟宝马这个品牌个人还是很喜欢的，一点不后悔。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-17 14:50
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+，后排空间不是很重要，而且新款后排的轴距也达到了2810mm，可以说后排空间已经比较宽敞了，平时家用足够了。动力还是比较满意的，虽然说2.0T 184P马力不算大，但好在提供的模式有三种，还有S档，油门响应提速还是相当快的。宝马三系的操控本来就是最好的，50：50，后驱的设计，加上我的是短轴版操控比加长版更好，过弯很稳，超车给力，指哪开哪，很顺。综述：
+油耗也是比较满意的一点，新款的发动机自动启停技术，加上8ZF的自动变速箱，使得油耗只有9多，和我之前1.8的科鲁兹差不多。新款的避震较软，新一代的F30比起之上一代的E90，方向盘助力和悬挂在舒适度上有很明显的提升。防爆胎的原因，高速下胎噪有点大，但还能接受。宝马的外观一直很满意，标志性的天使眼是我的最爱。新款的正面大灯位置降低了，看上去更凶悍了，整个流线型很漂亮。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-17 13:56
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+驾驶性能很好  售后服务价格较高
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-17 11:45
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+今天在北京下订进口325豪华版，意外碰到有马鞍棕内饰的在途来车，激动之余，马上下定，给的价格也不错，39.6W
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2014-03-17 11:14
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 缺点：
+在此，我想说一件不顺心的体验。小宝在1800公里时，仪表盘开始出现发动机故障灯报警，出现黄色灯。为此，我分别在珠海和深圳的4S点修了4次，第一次在珠海S店修理一个小时，故障码清除，故障灯熄灭，在店内花钱买宝马专用添加剂4瓶，而后的几个月内，发动机故障灯又一直亮起，两次在深圳的店内购买添加剂，还是无法消除。在深圳的4S店维修，最短时间为3天，最长时间为7天，交车时没有问题，跑几十公里后又出现，对方给出的权威解释大致有以下几点：1，3系车是欧四标准（2009新款318i）我添加的油品质量有问题。2.所有数据电脑检测正常，包括传感器。3、所有的小宝都有这个问题。4、再出现灯亮，随时给他们电话！ 我不知道是当初选择车错了还是现在选择4S店错了，总之，这块心病挥之不去，事不过三，前天刚拿回车，不到20公里又亮起，不知以后还要再打多少电话给他们？
+upvote: 0
+dobrand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-26 15:29
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+前排和后排头部空间一般，但前后轴距空间以及舒适度比较满意综述：
+动力和操控都是实在没话说，太棒了。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-26 14:41
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+悬架调校偏向舒适，但是避震器还是能给人感觉有一定韧劲，过减速带的质感很好，没有多余弹跳综述：
+一键启动和自动启停，自动启停是个好东西，习惯了之后挺好用的，建议大家都开着，老郭家双十一买的行车记录仪，拍摄效果很渣，不知道是不是我没在手机弄好！但是隐藏式真的很好看
+upvote: 1
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-26 13:41
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+空间方面，前排很舒服，后排空间比较小，感觉和老款没有什么质的飞跃，不过也在意料之中，同时又到328Li的后排感受了下，明显大了很多综述：
+宝马3系的操控性能表现的尤为突出，操控感强，方向精准，底盘扎实，路感清晰，刹车灵敏，静音效果突出，说到底其实就是操控性能，这是宝马品牌最大的优点。
+upvote: 0
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-26 12:07
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+关于噪音：都说3系噪音比较大，于是我就对它的噪音控制抱的预期太低了，也许正是因为预期太低了的原因，我感觉还可以综述：
+太喜欢这个门把手灯了 感觉有档次，晚上车内的灯光还是可以的，中控全景 这个内饰真是太没档次了
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-26 12:05
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+满意。限速非常适用，使用后不仅油耗降低，还不用操心是否超速，省精力。综述：
+品牌价值高，美观大气，动力强劲，操控性好，油耗低。
+upvote: 1
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-26 10:12
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+非常的犀利，标准轴距的身段比例完美，天使眼，鲨鱼鳍，一切都是那么的宝马，没买加长的另一个重要原因就是C柱上经典的“霍氏拐角”到了中国以后加上了一个尾巴
+upvote: 1
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-26 08:14
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+举起拇指给个赞赏，高速过弯的时候支撑很到位，路感反馈也很强烈。底盘其实还不错，偏硬又不失舒适型,综述：
+宝马敏感快捷的操控反馈最让新喜欢了。335的动力很猛，推背感十足；方向盘手感很差；油耗确实很给力.
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-26 07:26
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+新3系的2.0T发动机相比其它品牌同排量的发动机，数据上毫无优势，但得益于ZF的8AT的先进性，发动机与变速箱完美匹配，驾驶起来游刃有余，动力充沛的同时还兼顾了省油和平顺性。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-26 07:01
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+豪华的内饰没说的，相比时尚和基本款要好的多，一等价钱一等货，包括车内灯光，还是豪华的好的多综述：
+整车干净利落，大气，优雅，开出去很是吸引眼球
+upvote: 3
+downvote: 5
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 23:15
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+空间也足够给了，我180左右的个子，坐在里面也不感觉拥挤。后排空间也相当不错，头部空间有较大的空闲区，腿部空间也有两拳多点，人坐在里面感觉也是非常舒服，一点也不觉得很拥挤的感觉
+upvote: 3
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 22:44
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+很多中级车该有的配置没有。不过后排和后窗的遮阳帘很实用；座椅和后视镜的记忆功能也是很赞的。前雷达也比较实用综述：
+外观漂亮，宝马相对其他品牌就不说了，纵向对比自身，大灯个人认为比57系好看，14款比老款也做了明显提升，包括档把等等。
+upvote: 1
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 21:11
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+很多都很满意，空间、动力、操控、外观。我是很容易被车灯吸引的外貌协会，天使眼很漂亮，但是其他方面也并不差。
+upvote: 0
+downvote: 2
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 20:52
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+部空间够用，后排空间超级大，有时候东西放后排，侧身回去拿手都不容易够到综述：
+空间超出想象，特别是后排，迄今看过和做过的人，没有一个对后排空间不赞叹的。
+upvote: 0
+downvote: 2
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 20:18
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+内饰精致，真皮覆盖面积很广，电子档杆，爱拽，彩色大屏这些配置方便提升豪华感。综述：
+加速有力，油耗不高，电子档杆，爱拽，彩色大屏这些配置方便好用，科技感强，开起来整体感特别强。
+upvote: 0
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 20:15
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+油耗和我想象的有点偏高。刚开始的时候是8点多，磨合期过后，现在是7点多了。综述：
+空间还行，一家四口的话可以很舒适，但是如果是四个大人的话，可能就会有点挤
+upvote: 0
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 20:06
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+方向感确实是我开过的50万车以内数一数二的了。但是加长后确实感觉没有原来标准轴距的那么灵巧，有利有弊吧。日常使用还是很不错的。综述：
+油耗确实是低啊，加400油大概可以跑700公里，这油耗快赶上我原来的1.5嘉年华了。。。也就是平时上下班开的路况，平均时速30多吧，很满意了
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 19:05
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+动力随叫随到，要多少有多少啊，一坐上驾驶座就有一种操作的冲动综述：
+车子还是搭载2.0T的发动机，并且还是绚丽的8速手自一体变速箱，要知道这样的变速箱还是非常的厉害
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 18:03
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+转向精准，刹车灵敏，宝马的刹车就是有信心。开着放心，坐着舒心。综述：
+外观非常出色，路面反馈特别好，空间没得说大，动力强劲，油耗适中
+upvote: 3
+downvote: 2
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 17:43
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+德国车做的内饰令人满意，用料体现了这个价位的应有水平，做工也精致，难得的好内饰，特别喜欢挡把的造型，动感十足，爱不惜手。综述：
+宝马新3系真心的不错，外观还是那么的宝马，天使眼大灯很有神，加长后的车身显得大气，没有老款那种畏畏缩缩的感觉。后门很长，后排空间可以跟5系相媲美了。动力没话说，接近250匹马力加上8AT的波箱，很有驾驶欲望。
+upvote: 3
+downvote: 4
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 17:01
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+车漆很硬，刮擦过几次，都是以对方惨败告终。还有就是车子的外形就是喜欢，而且来得就是白色的王子就是好看
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 16:37
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+宝马的品牌影响力非常的强，在路上得到的就是明显的回头率，车子的内饰非常的潮流，并且带有的就是非常的好的科技感
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 16:34
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 综述：
+新3系造型非常时尚，开眼角大灯造型很有攻击性。底盘扎实，变速箱和发动机匹配很好，既平顺，又省油，而且加速很快。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 16:28
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+这个是我的最爱，我不懂车，但是懂欣赏，买宝马的最大原因就是因为外观。综述：
+后排空间非常宽敞，驾驶感受顺滑，后排豪华配置不少，电子档杆，显档次，车内静音很满意
+upvote: 4
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-06-25 16:23
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+操控没的说，地盘扎实，方向精准尤其是在过弯的时候综述：
+驾驶感觉很好，也就是大家说的操控很好，转向精准，后轮驱动过弯时更稳定
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-05-07 17:18
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+整车给人一种圆润饱满的感觉，车头上隆起的线条，赋予车身充沛的力量感，动力表现让人非常满意。配合八速手自一体变速箱，这个动力输出，非常快速直接。综述：
+相比同价位的其他品牌，我觉得这款车的性价比还是挺让我满意的，不管是外观、内饰，还是内部性能、配置，或者操控感受、乘坐体验，我觉得它都要好一些。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-05-07 17:18
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+内饰整体感觉很精致，做工非常好，每一个细节的装饰、各部分的材质用料都非常讲究。方向精准，回馈力度适中，动力强劲。刹车灵敏，油门响应快速。整机操控感感觉非常好。综述：
+这款车在内饰方面非常的豪华上档次。动力性能也非常不错，整体操控感受和乘坐的感受都相当出色。我觉得这个价位非常值。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-05-07 17:17
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+时尚大气依然是这款车的代名词，整体的线条很流畅很运动，动力方面我比较满意，有推背感，动力很充足，提速很快综述：
+虽然是在开的过程中这款车会有点小毛病，但是整体来说这款车的性价比还是不错的，尤其是配置很丰富，这款车的安全性能做得很好，真皮座椅和外观都比较显档次。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-05-07 17:17
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+内饰做的很精细，尤其是座椅的皮质质感很好，座椅坐姿较高，视野较好，方向助力灵活，操作起来很方便很容易综述：
+综合空间、造型以及品牌影响力,个人认为目前该车性价比还算不错，四十万的车配置很齐全，动力也充沛，关键是开着顺手。
+upvote: 0
+downvote: 1
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-05-07 17:16
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+外形风格十足，大气时尚，整体看起来很有动感，很喜欢前脸的设计，动力挺给力的，起步声音小，静音加运动系列，底盘高且扎实综述：
+我个人认为性价比很高，三十万左右就能把宝马开回家了，而且在配置和动力方面都还有惊喜，我感觉我是不是淘到宝了。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-05-07 17:16
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+动力感觉非常不错，感觉好像轻轻碰一下油门车子就要蹿起来了，起步是非常快的，电动助力的方向盘，指向比较精确，指哪打哪的感觉综述：
+空间超出想象，动力和操控都是实在没话说，太棒了，外观保持了宝马的传统，辨识度很高，所以还是物有所值的。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-05-07 17:15
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+中控彩色大屏比较有感觉，真皮方向盘、真皮座椅都很有质感，电动助力的方向盘，指向比较精确，指哪打哪的感觉，刹车很有力综述：
+空间超出想象，动力和操控都是实在没话说，太棒了，外观保持了宝马的传统，辨识度很高，所以还是物有所值的。
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+series: 宝马3系
+spec: 
+date: 2015-05-07 17:15
+web: xgo
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 优点：
+外形还是比较酷的，属于比较犀利有棱角的感觉，内饰做工还算不错，可以说做工比较精致，操控方面很容易狠简单，方向盘的指向性也很明确，刹车也很灵活，操控起来很容易上手。综述：
+性价比还算是比较合理的，外观绝对够时尚够前卫，各种配置也很齐全，座椅舒适性和空间都很满意
+upvote: 0
+downvote: 0
+respond: 0
+brand: 宝马
+serbrand: 宝马
+series: 宝马3系
+spec: 宝马3系2016款328iM运动型
+date: 2015/11/26 12:00:57
+web: sohu
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2016款328iM运动型
+date: 2015/11/26 12:00:57
+web: sohu
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2016款328iM运动型
+date: 2015/11/26 12:00:57
+web: sohu
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 
+downvote: 
+respond: 
+brand: 宝马
+series: 宝马3系
+spec: 宝马3系2016款328iM运动型
+date: 2015/11/26 12:00:57
+web: sohu
+good: 
+bad: 
+space: 
+power: 
+operate: 
+oil: 
+comfort: 
+appearance: 
+decoration: 
+worth: 
+bugs: 
+sustain: 
+other: 
+upvote: 
+downvote: 
+respond: 

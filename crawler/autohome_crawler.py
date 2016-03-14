@@ -8,8 +8,8 @@ import json
 import copy, collections, datetime, MySQLdb
 
 
-conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
-cur=conn.cursor()
+#conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
+#cur=conn.cursor()
 
 comment_field = ["brand", "series", "spec", "date", "web", "good", "bad", "space", "power", "operate", "oil", "comfort", "appearance", "decoration", "worth", "bugs", "sustain", "other", "upvote", "downvote", "respond"]
 
@@ -26,7 +26,7 @@ def store_comment(record, raw_comment, file):
 	split_tag = ["【最满意的一点】", "【最不满意的一点】", "【空间】"]
 	# processing raw_comment
 
-	for key, value in record:
+	for (key, value) in record.items():
 		file.write("%s: %s\n" % (key, value))
 
 	# store it in sql.
@@ -138,11 +138,11 @@ def main():
 		url_basic = "http://car.autohome.com.cn/config/spec/" + str(car_id) + ".html"
 		url_comment = "http://k.autohome.com.cn/spec/" + str(car_id)
 
-		car_name = crawl_basic(url_basic)
+		car_name = crawl_basic(url_basic, car_id)
 		crawl_comment("autohome", brand, series, car_name, url_comment)
 
-	cur.close()
-	conn.close()
+	#cur.close()
+	#conn.close()
 
 main()
 
