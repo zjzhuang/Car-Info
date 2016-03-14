@@ -58,15 +58,14 @@ def crawl_comment(web_name, brand, series, spec_name, url_base):
 		
 		# Find comments from a specific user.
 		for item in soup.body.find_all("div", id="topiclistshow")[0].find_all("dl"):
-			try:
-				url_comment_list = item.find_all("ul", class_="cont_list")[0].find_all("li")
-			except e:
-                                print e
-                                log.write("Error when crawling page: " + url_comments + "\n Error msg: " + e + "\n\n")
+			# try:
+			url_comment_list = item.find_all("ul", class_="cont_list")[0].find_all("li")
+			# except e:
+			# 	print e
+			# 	log.write("Error when crawling page: " + url_comments + "\n Error msg: " + e + "\n\n")
 
 			# One user may have several comments.
 			for url_comment in url_comment_list:
-				
 				record = copy.copy(comment_dict)
 				record["brand"] = brand
 				record["series"] = series
@@ -74,43 +73,49 @@ def crawl_comment(web_name, brand, series, spec_name, url_base):
 				record["web"] = web_name
 				
 				r = requests.get(url_comment.a.get("href"))
+				print url_comment.a.get("href")
 				soup = BeautifulSoup(r.text, "lxml")
-				try:
-					comment = soup.find("div", id="content_bit").find_all("div", class_="article-contents")[0]
-					
-					record["respond"] = respond = url_comment.select("div.rbox")[0].a.span.text[3:-1].strip()
-					record["upvote"] = upvote = url_comment.select("div.rbox em")[-1].text[1:-1].strip()
-					record["date"] = date = soup.select("#time")[0].text.strip()
-					print "respond is: %s" % respond
-					print "upvote is: %s" % upvote
-					print "date is: %s" % date 
+				# try:
 
-					if comment.select("p.czjg_xq_cont") != []: # which means that comment is not valid.
+				# filter some special comments.
+				if soup.select("span.fapiao_tab") != []:
+					continue
+
+				comment = soup.select("div#content_bit div.article-contents")[0]
+				
+				record["respond"] = respond = url_comment.select("div.rbox")[0].a.span.text[3:-1].strip()
+				record["upvote"] = upvote = url_comment.select("div.rbox em")[-1].text[1:-1].strip()
+				record["date"] = date = soup.select("#time")[0].text.strip()
+				print "respond is: %s" % respond
+				print "upvote is: %s" % upvote
+				print "date is: %s" % date 
+
+				if comment.select("p.czjg_xq_cont") != []: # which means that comment is not valid.
+					continue
+				# pre-process the text for convenience.
+				for tag in comment.find_all("strong"):
+					if not tag.string:
 						continue
-					# pre-process the text for convenience.
-					for tag in comment.find_all("strong"):
-						if not tag.string:
-							continue
-						tag.string = "[" + tag.string.strip() + "]"
-						# print tag.text
-					for p in comment.find_all("p"):
-						if not p.string:
-							continue
-						p.string = p.string.strip()
-					# Here we clean some data.
-					if comment.h4:
-						comment.h4.extract()
-					if comment.pre:
-						comment.pre.extract()
-					if comment.find("div.con_nav2"):
-						comment.find("duv.con_nav2").extract()
+					tag.string = "[" + tag.string.strip() + "]"
+					# print tag.text
+				for p in comment.find_all("p"):
+					if not p.string:
+						continue
+					p.string = p.string.strip()
+				# Here we clean some data.
+				if comment.h4:
+					comment.h4.extract()
+				if comment.pre:
+					comment.pre.extract()
+				if comment.find("div.con_nav2"):
+					comment.find("duv.con_nav2").extract()
 
-					store_comment(record, comment.text.strip(), file)
+				store_comment(record, comment.text.strip(), file)
 
-				except Exception as e:
-					print url_comment.a.get("href")
-                                        print e
-                                        log.write("Error when crawling page: " + url_comment.a.get("href") + "\n\n")
+				# except Exception as e:
+				# 	print url_comment.a.get("href")
+				# 	print e
+				# 	log.write("Error when crawling page: " + url_comment.a.get("href") + "\n\n")
 
 	file.close()
 	log.close()

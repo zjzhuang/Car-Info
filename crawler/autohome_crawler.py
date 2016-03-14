@@ -17,6 +17,8 @@ comment_dict = collections.OrderedDict()
 for field in comment_field:
 	comment_dict[field] = ""
 
+# get the pool from sql further.
+url_pool = {}
 
 reload(sys)  
 sys.setdefaultencoding('utf8')   
@@ -55,7 +57,7 @@ def crawl_basic(url_basic, car_id):
 	file.close()
 	return car_name
 
-def crawl_comment(web_name, brand, series, spec_name, url_base):
+def crawl_comment(web_name, brand, series, url_base):
 
 	log = open("crawler_log.txt", "a")
 	file_name = series + ".txt"
@@ -82,7 +84,7 @@ def crawl_comment(web_name, brand, series, spec_name, url_base):
 			record = copy.copy(comment_dict)
 			record["brand"] = brand
 			record["series"] = series
-			record["spec"] = spec_name
+			record["spec"] = spec_name = "".join(item.select("div.mouthcon-cont-left dl.choose-dl dd")[0].text.split())
 			record["web"] = web_name
 
 			# get the specific comment page.
@@ -119,7 +121,6 @@ def crawl_comment(web_name, brand, series, spec_name, url_base):
 	log.close()
 
 def main():
-
 	series = u"宝马3系"
 	brand = u"宝马"
 	if not os.path.exists("data/"):
@@ -133,13 +134,12 @@ def main():
 	car_list = [int(s.strip()) for s in car_list_str[1:-1].split(",")]
 	
 
-	for car_id in car_list:		
-		print "Processing", car_id, "..."
-		url_basic = "http://car.autohome.com.cn/config/spec/" + str(car_id) + ".html"
-		url_comment = "http://k.autohome.com.cn/spec/" + str(car_id) + "/ge0/0-0-2/"
-
-		car_name = crawl_basic(url_basic, car_id)
-		crawl_comment("autohome", brand, series, car_name, url_comment)
+	# for car_id in car_list:		
+	# 	url_basic = "http://car.autohome.com.cn/config/spec/" + str(car_id) + ".html"
+	# 	car_name = crawl_basic(url_basic, car_id)
+		
+	url_comment = "http://k.autohome.com.cn/66/ge0/0-0-2"
+	crawl_comment("autohome", brand, series, url_comment)
 
 	#cur.close()
 	#conn.close()

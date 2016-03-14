@@ -1,0 +1,41 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.29
+3 info using node@v0.10.42
+4 verbose node symlink /usr/bin/node
+5 warn deprecated This version of npm lacks support for important features,
+6 warn deprecated such as scoped packages, offered by the primary npm
+7 warn deprecated registry. Consider upgrading to at least npm@2, if not the
+8 warn deprecated latest stable version. To upgrade to npm@2, run:
+9 warn deprecated npm -g install npm@latest-2
+10 warn deprecated To upgrade to the latest stable version, run:
+11 warn deprecated npm -g install npm@latest
+12 warn deprecated (Depending on how Node.js was installed on your system, you
+13 warn deprecated may need to prefix the preceding commands with `sudo`, or if
+14 warn deprecated on Windows, run them from an Administrator prompt.)
+15 warn deprecated If you're running the version of npm bundled with
+16 warn deprecated Node.js 0.10 LTS, be aware that the next version of 0.10 LTS
+17 warn deprecated will be bundled with a version of npm@2, which has some small
+18 warn deprecated backwards-incompatible changes made to `npm run-script` and
+19 warn deprecated semver behavior.
+20 error install Couldn't read dependencies
+21 error Error: Invalid name: "car info"
+21 error     at ensureValidName (/usr/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/fixer.js:315:15)
+21 error     at Object.module.exports.fixNameField (/usr/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/fixer.js:204:5)
+21 error     at /usr/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/normalize.js:30:38
+21 error     at Array.forEach (native)
+21 error     at normalize (/usr/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/normalize.js:29:15)
+21 error     at final (/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:342:33)
+21 error     at then (/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:126:33)
+21 error     at /usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:316:48
+21 error     at evalmachine.<anonymous>:208:20
+21 error     at OpenReq.Req.done (/usr/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:141:5)
+22 error If you need help, you may report this *entire* log,
+22 error including the npm and node versions, at:
+22 error     <http://github.com/npm/npm/issues>
+23 error System Linux 3.13.0-77-generic
+24 error command "/usr/bin/node" "/usr/bin/npm" "install"
+25 error cwd /home/hunter_lin/Car-Info/web
+26 error node -v v0.10.42
+27 error npm -v 1.4.29
+28 verbose exit [ 1, true ]
