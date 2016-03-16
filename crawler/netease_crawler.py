@@ -10,7 +10,7 @@ import copy, collections, datetime, MySQLdb
 #conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
 #cur=conn.cursor()
 
-comment_field = ["brand", "series", "spec", "date", "web", "good", "bad", "space", "power", "operate", "oil", "comfort", "appearance", "decoration", "worth", "bugs", "sustain", "other", "upvote", "downvote", "respond"]
+comment_field = ["brand", "series", "spec", "date", "web", "url", "good", "bad", "space", "power", "operate", "oil", "comfort", "appearance", "decoration", "worth", "bugs", "sustain", "other", "upvote", "downvote", "respond"]
 
 comment_dict = collections.OrderedDict()	
 for field in comment_field:
@@ -20,7 +20,7 @@ for field in comment_field:
 reload(sys)  
 sys.setdefaultencoding('utf8')   
 
-def store_comment(record, raw_comment, file):
+def store_comment(web_name, record, raw_comment, file):
 	# split_tag = ["【最满意的一点】", "【最不满意的一点】", "【空间】"]
 	# processing raw_comment
 
@@ -33,17 +33,15 @@ def store_comment(record, raw_comment, file):
 	# store it in sql.
 	return
 
-def crawl_comment(web_name, brand, series, spec_name, url_base):
-
-	# open the log.
+def netease_crawler(brand, series, url_base):
 	log = open("crawler_log.txt", "a")
-	# get the file name.
 	file_name = str(series) + ".txt"
 	file = open(file_name, "a")
 
+	web_name = u"网易汽车网"
 	flag = 1
-	url_comments = url_base
 	page_num = 1
+	url_comments = url_base
 
 	while(flag):
 		r = requests.get(url_comments)
@@ -69,14 +67,16 @@ def crawl_comment(web_name, brand, series, spec_name, url_base):
 				record["spec"] = spec_name
 				record["web"] = web_name
 				record["date"] = date
+				record["url"] = "product.auto.163.com" + comment_div.a["href"]
 
 				content = ""
 	   			comment_div = item.select("div.comBody")[0]
-	   			content = comment_div.text
-	   			if comment_div.text[-3:] == "...":
-	   				r = requests.get(comment_div.a["href"])
+	   			print "comment is: ", comment_div.text
+	   			content = comment_div.text.strip()[:-4]
+	   			if comment_div.text[-7:-4] == "...":
+	   				r = requests.get(record["url"])
 	   				soup = BeautifulSoup(r.text, "lxml")
-	   				content = soup.select("div.d3").text
+	   				content = soup.select("div.d3").text.strip()
 
 	   			record["respond"] = respond = item.select("li.reply")[0].text[3:-1]
 	   			record["upvote"] = upvote = item.select("li.useful")[0].text[3:-1]
@@ -85,7 +85,7 @@ def crawl_comment(web_name, brand, series, spec_name, url_base):
 	   			print "upvote is %s" % upvote
 	   			print "downvote is %s" % downvote
 
-	   			store_comment(record, content.strip(), file)
+	   			store_comment(web_name, record, content.strip(), file)
 	   			
 			# except Exception as e:
 			# 	print url_comments
@@ -105,9 +105,7 @@ def main():
 		os.makedirs("data/")
 	os.chdir("data/")
 
-	# xgo has no detailed classification.
 	url_comment = "http://product.auto.163.com/opinion_more/1990/1_1.html"
-	
-	crawl_comment("163", brand, series, "", url_comment)
+	netease_crawler(brand, series, url_comment)
 
 main()

@@ -13,14 +13,14 @@ sys.setdefaultencoding('utf8')
 #conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
 #cur=conn.cursor()
 
-comment_field = ["brand", "series", "spec", "date", "web", "good", "bad", "space", "power", "operate", "oil", "comfort", "appearance", "decoration", "worth", "bugs", "sustain", "other", "upvote", "downvote", "respond"]
+comment_field = ["brand", "series", "spec", "date", "web", "url", "good", "bad", "space", "power", "operate", "oil", "comfort", "appearance", "decoration", "worth", "bugs", "sustain", "other", "upvote", "downvote", "respond"]
 
 comment_dict = collections.OrderedDict()	
 for field in comment_field:
 	comment_dict[field] = ""
 
 
-def store_comment(record, raw_comment, file):
+def store_comment(web_name, record, raw_comment, file):
 	# processing raw_comment
 	record["other"] = raw_comment
 
@@ -34,19 +34,17 @@ def store_comment(record, raw_comment, file):
 	#conn.commit()
 	return
 
-def crawl_comment(web_name, brand, series, spec_name, url_base):
-
-	# open the log.
+def xgo_crawler(brand, series, url_base):
 	log = open("crawler_log.txt", "a")
-	# get the file name.
 	file_name = str(series) + ".txt"
 	file = open(file_name, "a")
-	# file.write("**comments from xgo\n\n\n")
 
+	web_name = u"汽车点评网"
 	flag = 1
-	url_comments = url_base
 	page_num = 1
+	url_comments = url_base
 
+	spec_name = ""
 	while(flag):
 		r = requests.get(url_comments)
 		soup = BeautifulSoup(r.text, "lxml")
@@ -78,16 +76,18 @@ def crawl_comment(web_name, brand, series, spec_name, url_base):
 				
 				info_list = tuple(i.text.encode("utf-8") for i in item.select("div.apply span.redc00"))
 
+				record["url"] = "www.xgo.com.cn" + item.select("div.apply > a")[0]["href"]
+				print "url is: ", record["url"]
 				record["respond"] = info_list[0]
 				record["upvote"] = info_list[1]
 				record["downvote"] = info_list[2]
 
-				store_comment(record, content.encode("utf-8"), file)
+				store_comment(web_name, record, content.encode("utf-8"), file)
 
 			except Exception as e:
 				print url_comments
-                		print e
-                		log.write("Error when crawling page: " + url_comments + "\n\n")
+				print e
+				log.write("Error when crawling page: " + url_comments + "\n\n")
 		# cur.commit()
 	file.close()
 	log.close()
@@ -105,8 +105,7 @@ def main():
 
 	# xgo has no detailed classification.
 	url_comment = "http://www.xgo.com.cn/2710/list_s1_p1.html"
-	
-	crawl_comment("xgo", brand, series, "", url_comment)
+	xgo_crawler(brand, series, url_comment)
 
 	#cur.close()
 	#conn.close()

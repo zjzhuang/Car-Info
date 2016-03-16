@@ -13,13 +13,13 @@ sys.setdefaultencoding('utf8')
 #conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
 #cur=conn.cursor()
 
-comment_field = ["brand", "series", "spec", "date", "web", "good", "bad", "space", "power", "operate", "oil", "comfort", "appearance", "decoration", "worth", "bugs", "sustain", "other", "upvote", "downvote", "respond"]
+comment_field = ["brand", "series", "spec", "date", "web", "url", "good", "bad", "space", "power", "operate", "oil", "comfort", "appearance", "decoration", "worth", "bugs", "sustain", "other", "upvote", "downvote", "respond"]
 
 comment_dict = collections.OrderedDict()	
 for field in comment_field:
 	comment_dict[field] = ""
 
-def store_comment(record, raw_comment, file):
+def store_comment(web_name, record, raw_comment, file):
 	# split_tag = ["【最满意的一点】", "【最不满意的一点】", "【空间】"]
 	# processing raw_comment
 
@@ -32,18 +32,15 @@ def store_comment(record, raw_comment, file):
 	# store it in sql.
 	return
 
-def crawl_comment(web_name, brand, series, spec_name, url_base):
-
-	# open the log.
+def yiche_crawler(brand, series, url_base):
 	log = open("crawler_log.txt", "a")	
-	# get the file name.
 	file_name = series + ".txt"
 	file = open(file_name, "a")
 
-
+	web_name = u"易车网"
 	flag = 1
-	url_comments = url_base
 	page_num = 1
+	url_comments = url_base
 
 	while(flag):
 		r = requests.get(url_comments)
@@ -59,10 +56,8 @@ def crawl_comment(web_name, brand, series, spec_name, url_base):
 		# Find comments from a specific user.
 		for item in soup.body.find_all("div", id="topiclistshow")[0].find_all("dl"):
 			# try:
+			spec_name = series + "".join(item.select("p.carname")[0].text.split())
 			url_comment_list = item.find_all("ul", class_="cont_list")[0].find_all("li")
-			# except e:
-			# 	print e
-			# 	log.write("Error when crawling page: " + url_comments + "\n Error msg: " + e + "\n\n")
 
 			# One user may have several comments.
 			for url_comment in url_comment_list:
@@ -71,11 +66,11 @@ def crawl_comment(web_name, brand, series, spec_name, url_base):
 				record["series"] = series
 				record["spec"] = spec_name
 				record["web"] = web_name
+				record["url"] = url_comment.a.get("href")
 				
-				r = requests.get(url_comment.a.get("href"))
+				r = requests.get(record["url"])
 				print url_comment.a.get("href")
 				soup = BeautifulSoup(r.text, "lxml")
-				# try:
 
 				# filter some special comments.
 				if soup.select("span.fapiao_tab") != []:
@@ -110,12 +105,12 @@ def crawl_comment(web_name, brand, series, spec_name, url_base):
 				if comment.find("div.con_nav2"):
 					comment.find("duv.con_nav2").extract()
 
-				store_comment(record, comment.text.strip(), file)
+				store_comment(web_name, record, comment.text.strip(), file)
 
-				# except Exception as e:
-				# 	print url_comment.a.get("href")
-				# 	print e
-				# 	log.write("Error when crawling page: " + url_comment.a.get("href") + "\n\n")
+			# except Exception as e:
+			# 	print url_comment.a.get("href")
+			# 	print e
+			# 	log.write("Error when crawling page: " + url_comment.a.get("href") + "\n\n")
 
 	file.close()
 	log.close()
@@ -136,18 +131,8 @@ def main():
 
 	soup = BeautifulSoup(r.text, "lxml")
 
-	is_first = 1
-	for item in soup.body.findAll("div", id="trimlist")[0].ul.children:		
-		if item.find("a") == -1:
-			continue
-		if is_first == 1:
-			is_first = 0
-			continue
-		# find a certain spec
-		url_comment = item.find("a")["href"]
-		spec_name = u"宝马3系" + "".join(item.find("a").text.strip().split())
-		print "processing ..."
-		crawl_comment("yiche", brand, series, spec_name, url_comment)
+	url_comment = "http://car.bitauto.com/baoma3xi/koubei/tags/%E7%BB%BC%E5%90%88/"
+	yiche_crawler(brand, series, url_comment)
 
 	#cur.close()
 	#conn.close()

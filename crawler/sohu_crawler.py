@@ -10,7 +10,7 @@ import copy, collections, datetime, MySQLdb
 #conn=MySQLdb.connect(host='127.0.0.1',user='root',passwd='15980ptpt',db='mysql',port=3306)
 #cur=conn.cursor()
 
-comment_field = ["brand", "series", "spec", "date", "web", "good", "bad", "space", "power", "operate", "oil", "comfort", "appearance", "decoration", "worth", "bugs", "sustain", "other", "upvote", "downvote", "respond"]
+comment_field = ["brand", "series", "spec", "date", "web", "url", "good", "bad", "space", "power", "operate", "oil", "comfort", "appearance", "decoration", "worth", "bugs", "sustain", "other", "upvote", "downvote", "respond"]
 
 comment_dict = collections.OrderedDict()	
 for field in comment_field:
@@ -20,7 +20,7 @@ for field in comment_field:
 reload(sys)  
 sys.setdefaultencoding('utf8')   
 
-def store_comment(record, raw_comment, file):
+def store_comment(web_name, record, raw_comment, file):
 	# split_tag = ["【最满意的一点】", "【最不满意的一点】", "【空间】"]
 	# processing raw_comment
 
@@ -33,17 +33,15 @@ def store_comment(record, raw_comment, file):
 	# store it in sql.
 	return
 
-def crawl_comment(web_name, brand, series, spec_name, url_base):
-
-	# open the log.
+def sohu_crawler(brand, series, url_base):
 	log = open("crawler_log.txt", "a")
-	# get the file name.
 	file_name = str(series) + ".txt"
 	file = open(file_name, "a")
 
+	web_name = u"搜狐汽车网"
 	flag = 1
-	url_comments = url_base
 	page_num = 1
+	url_comments = url_base
 
 	while(flag):
 		r = requests.get(url_comments)
@@ -52,7 +50,7 @@ def crawl_comment(web_name, brand, series, spec_name, url_base):
 		print next_page.attrs
 		if next_page.attrs == {}: # no class named "unable"
 			page_num += 1
-			url_comments = url_base.split("dianping")[0] + "dianping_2_" + str(page_num) + ".html"
+			url_comments = url_base.split("dianping")[0] + "dianping_1_" + str(page_num) + ".html"
 			print "another_page, ", url_comments
 		else:
 			flag = 0	
@@ -62,7 +60,7 @@ def crawl_comment(web_name, brand, series, spec_name, url_base):
 				#print item
 				spec_name = series + "".join(item.select("div.pltit")[0].h3.a.text.split())
 				#print item.select("span.time")[0].text
-				date = item.select("span.time")[0].text.split(u"发表于")[-1].strip()
+				date = item.select("span.time")[0].text.split(u"发表于")[-1].text.strip()
 				print "date is: %s" % date
 				record = copy.copy(comment_dict)
 				record["brand"] = brand
@@ -70,6 +68,8 @@ def crawl_comment(web_name, brand, series, spec_name, url_base):
 				record["spec"] = spec_name
 				record["web"] = web_name
 				record["date"] = date
+				record["url"] = url_comments + "#" + str(item.div["id"])
+				print "url is: ", record["url"]
 
 				content = ""
 	   			comment_div = item.select("div.pltxt")[0]
@@ -78,7 +78,7 @@ def crawl_comment(web_name, brand, series, spec_name, url_base):
 	   				content += u"【" + pair[0] + u"】"
 	   				content += pair[1] + "\n"
 				#print content
-	   			store_comment(record, content.strip(), file)
+	   			store_comment(web_name, record, content.strip(), file)
 	   			
 			except Exception as e:
 				print e
@@ -98,9 +98,7 @@ def main():
 		os.makedirs("data/")
 	os.chdir("data/")
 
-	# xgo has no detailed classification.
-	url_comment = "http://db.auto.sohu.com/huachenbmw/1232/dianping.html"
-	
-	crawl_comment("sohu", brand, series, "", url_comment)
+	url_comment = "http://db.auto.sohu.com/huachenbmw/1232/dianping_1.html"
+	sohu_crawler(brand, series, url_comment)
 
 main()
