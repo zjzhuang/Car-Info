@@ -64,7 +64,7 @@ def xgo_crawler(brand, series, url_base):
 			record["series"] = series
 			record["spec"] = spec_name
 			record["web"] = web_name
-			
+
 			try:
 	   			comment_div = item.select("dd.paragraph div.clearfix")
 				record["date"] = item.select("dd.title span.r")[0].text[4:].encode("utf-8")
@@ -72,7 +72,7 @@ def xgo_crawler(brand, series, url_base):
 				content = ""
 	   			for comment_item in comment_div:
 					content += comment_item.text.strip()
-				# print content						
+				print content						
 				
 				info_list = tuple(i.text.encode("utf-8") for i in item.select("div.apply span.redc00"))
 
